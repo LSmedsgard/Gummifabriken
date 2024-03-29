@@ -6,14 +6,20 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gummifabriken</title>
-            <title>VG-Bladet</title>
+            <title>VG-BLADET vid Gummifabriken i Värnamo</title>
+            <author>S Ribbenmo</author>
+            <principal>Nour Abbas, Evelina Fant, Emeli hellström, Linnea Smedsgård</principal>
+            
          </titleStmt>
+         
          <publicationStmt>
-            <p>Publication Information</p>
+            
+            <p>Examination för kursen Digitalisering för bevarande och tillgänglighet vid Högskolan i Borås <date>vårterminen 2024</date> som publiceras via GitHub inline.</p>
+        
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            
+            <p>Gummifabrikens personaltidning tryckt med blåstencil år <date>1961</date>.</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
