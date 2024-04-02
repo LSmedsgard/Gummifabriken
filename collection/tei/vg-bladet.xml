@@ -8,15 +8,34 @@
          <titleStmt>
             <title>VEGE-BLADET vid Gummifabriken i Värnamo</title>
             <author>S Ribbenmo</author>
-            <principal>Nour Abbas, Evelina Fant, Emeli hellström, Linnea Smedsgård</principal>
-            
+            <funder>Gummifabriken Värnamo</funder>
+            <principal>Nour Abbas, Evelina Fant, Emeli Hellström, Linnea Smedsgård</principal>
+            <respStmt>
+               <resp>Kodning, transkribering</resp>
+               <name>Evelina Fant</name>
+               <name>Linnea Smedsgård</name>
+            </respStmt>
          </titleStmt>
+         <!--Kommentar: Hur ska vi skriva allas namn respektive ansvar? Är resp eller prin onödigt-->
          
          <publicationStmt>
-            
+            <authority>Nour Abbas</authority>
+            <authority>Evelina Fant</authority>
+            <authority>Emeli Hellström</authority>
+            <authority>Linnea Smedsgård</authority>
+            <distributor>University of Borås</distributor>
+            <address>
+               <settlement>Borås</settlement>
+               <street>Allégatan 1</street>
+               <postCode>SE-501 90</postCode>
+               <country>Sweden</country>
+            </address>
+            <availability>
             <p>Examination för kursen Digitalisering för bevarande och tillgänglighet vid Högskolan i Borås <date>vårterminen 2024</date> som publiceras via GitHub online.</p>
-        
+         </availability>
+            <date when="2024-06-01">01 Juni 2024</date>
          </publicationStmt>
+         
          <sourceDesc>
             
             <p>Gummifabrikens personaltidning tryckt med blåstencil år <date>1961</date>.</p>
