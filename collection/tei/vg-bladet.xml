@@ -9,21 +9,22 @@
             <title>VEGE-BLADET vid Gummifabriken i Värnamo</title>
             <author>S Ribbenmo</author>
             <funder>Gummifabriken Värnamo</funder>
-            <principal>Nour Abbas, Evelina Fant, Emeli Hellström, Linnea Smedsgård</principal>
             <respStmt>
-               <resp>Kodning, transkribering</resp>
-               <name>Evelina Fant</name>
-               <name>Linnea Smedsgård</name>
+               <resp>Tei-xml, transkribering</resp>
+               <name xml:id="EF">Evelina Fant</name>
+               <name xml:id="LS">Linnea Smedsgård</name>
+            </respStmt>
+            <respStmt>
+               <resp>Bildfångst, html</resp>
+               <name xml:id="NA">Nour Abbas</name>
+               <name xml:id="EH">Emeli Hellström</name>
             </respStmt>
          </titleStmt>
-         <!--Kommentar: Hur ska vi skriva allas namn respektive ansvar? Är resp eller prin onödigt-->
+         <!--Kommentar: Hur ska vi skriva allas namn respektive ansvar?-->
          
          <publicationStmt>
-            <authority>Nour Abbas</authority>
-            <authority>Evelina Fant</authority>
-            <authority>Emeli Hellström</authority>
-            <authority>Linnea Smedsgård</authority>
-            <distributor>University of Borås</distributor>
+            <authority>Nour Abbas, Evelina Fant, Emeli Hellström, Linnea Smedsgård</authority>
+            <distributor>Högskolan i Borås</distributor>
             <address>
                <settlement>Borås</settlement>
                <street>Allégatan 1</street>
@@ -33,15 +34,40 @@
             <availability>
             <p>Examination för kursen Digitalisering för bevarande och tillgänglighet vid Högskolan i Borås <date>vårterminen 2024</date> som publiceras via GitHub online.</p>
          </availability>
-            <date when="2024-06-01">01 Juni 2024</date>
          </publicationStmt>
          
-         <sourceDesc>
+         <notesStmt>
+            <note>Transkriberat för ett digitaliseringsprojekt av ett kulturarv vid Högskolan i Borås</note>
+            <note>Bildfångst gjort med scanner...</note>
+            <note>Transkribering är gjord manuellt</note>
+            <note>Transkribering gjord i XML med oXygen editor</note>
+         </notesStmt>
             
-            <p>Gummifabrikens personaltidning tryckt med blåstencil år <date>1961</date>.</p>
+         <sourceDesc>
+            <!--Kommentar: Var kan vi lägga in den här informationen om primärkällan <p>Information om källdokumentet som den här elektroniska publiceringen baseras på: Gummifabrikens personaltidning tryckt med blåstencil</p>Hur många sidor är det? Framsida? Baksida?-->            
+            <biblStruct>
+               <monogr>
+                  <author> Ribbenmo, S, 1967</author>
+                  <title type="main">VEGE-bladet</title>
+                  <title type="subordinate">PREMIÄRNUMMER</title>
+                  <imprint>
+                     <pubPlace>Värnamo</pubPlace>
+                     <publisher>Gummifabriken</publisher>
+                     <date>Mars 1967</date>
+                  </imprint>
+                  <extent>5s.</extent>
+                  <!--Kommentar: Hur många sidor är det? Framsida? Baksida?-->
+               </monogr>
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
+     <encodingDesc>
+        <p>Radbrytningar, styckebrytningar och indrag har bevarats i transkriptionen. Layouten på sidan har bevarats när det är möjligt. 
+           Förkortningar och stavningar har bibehållits i transkriptionerna, och hela ordet och korrigerade eller moderna stavningar har 
+           tillhandahållits. Ord eller fraser som anses otydliga har noterats som "otydliga".</p>
+     </encodingDesc>
   </teiHeader>
+   
   <text>
       <body>
          <p>Some text here.</p>
