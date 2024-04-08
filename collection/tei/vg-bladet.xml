@@ -31,29 +31,33 @@
                <postCode>SE-501 90</postCode>
                <country>Sweden</country>
             </address>
-            <availability>
-            <p>Examination för kursen Digitalisering för bevarande och tillgänglighet vid Högskolan i Borås <date>vårterminen 2024</date> som publiceras via GitHub online.</p>
-         </availability>
+            <date when="2024-05-24" calendar="Gregorian">24 May 2024</date>
+            <availability status="free">
+               <licence>Publiceras via GitHub online under <ref target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  Creative Commons Attribution 4.0 International</ref></licence>
+               <p>I gott samarbete med Gummifarbriken i Värnamo, Sverige</p>
+            </availability>
          </publicationStmt>
          
          <notesStmt>
-            <note>Transkriberat för ett digitaliseringsprojekt av ett kulturarv vid Högskolan i Borås</note>
-            <note>Bildfångst gjort med scanner...</note>
+            <note>Examination för kursen Digitalisering för bevarande och tillgänglighet vid 
+               Högskolan i Borås</note>
+            <note>Bildfångst gjort med scanner Epson Perfection V600 Photo, Model: J252A...</note>
             <note>Transkribering är gjord manuellt</note>
-            <note>Transkribering gjord i XML med oXygen editor</note>
+            <note>Transkription gjord i XML med oXygen editor</note>
          </notesStmt>
             
-         <sourceDesc>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
             <!--Kommentar: Var kan vi lägga in den här informationen om primärkällan <p>Information om källdokumentet som den här elektroniska publiceringen baseras på: Gummifabrikens personaltidning tryckt med blåstencil</p>Hur många sidor är det? Framsida? Baksida?-->            
-            <biblStruct>
+            <biblStruct>   
                <monogr>
-                  <author> Ribbenmo, S, 1967</author>
                   <title type="main">VEGE-bladet</title>
                   <title type="subordinate">PREMIÄRNUMMER</title>
+                  <author> Ribbenmo, S.</author>
                   <imprint>
-                     <pubPlace>Värnamo</pubPlace>
+                     <pubPlace>Värnamo, Sverige</pubPlace>
                      <publisher>Gummifabriken</publisher>
-                     <date>Mars 1967</date>
+                     <date when="1967-03">Mars 1967</date>
                   </imprint>
                   <extent>5s.</extent>
                   <!--Kommentar: Hur många sidor är det? Framsida? Baksida?-->
@@ -61,16 +65,58 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+     
      <encodingDesc>
-        <p>Radbrytningar, styckebrytningar och indrag har bevarats i transkriptionen. Layouten på sidan har bevarats när det är möjligt. 
-           Förkortningar och stavningar har bibehållits i transkriptionerna, och hela ordet och korrigerade eller moderna stavningar har 
-           tillhandahållits. Ord eller fraser som anses otydliga har noterats som "otydliga".</p>
+        <editorialDecl>
+           <p>Radbrytningar, styckebrytningar och indrag har bevarats i transkriptionen. 
+              Layouten på sidan har bevarats när det är möjligt.</p> 
+              <hyphenation> 
+                 <p>Förkortningar och stavningar har bibehållits i transkriptionerna, 
+                    och hela ordet och korrigerade eller moderna stavningar har tillhandahållits.</p>
+              </hyphenation>
+              <correction>
+               <p>Ord eller fraser som anses otydliga har noterats som <unclear></unclear>otydliga".</p>
+              </correction>
+              <!-- Kommentar vid unclear : <unclear reason="illegible">placebo</unclear> -->
+           </editorialDecl>
+        <tagsDecl>
+           <rendition xml:id="italics"
+              scheme="css">font-style: italic;
+           </rendition> 
+           <rendition xml:id="bold"
+              scheme="css">font-style: bold;
+           </rendition> 
+           <rendition xml:id="underlined" 
+              scheme="css">font-style: underlined; 
+           </rendition>
+        </tagsDecl>
      </encodingDesc>
+     
+     <profileDesc>
+        <langUsage>
+           <language ident="sv">Swedish</language>
+        </langUsage>
+        <textDesc n="personaltidning från Gummifarbriken i Värnamo">
+           <channel mode="w">tryckt med blåstencil</channel>
+           <constitution type="single"/>
+           <derivation type="original"/>
+           <domain type="personaltidning"/>
+           <factuality type="fact"/>
+           <interaction type="inapplicable"/>
+           <preparedness type="revised"/>
+           <purpose type="inform" degree="high"/>
+        </textDesc>
+     </profileDesc>
+     <!-- Kolla upp dessa constitution, factuality, interaction, prepardness -->
   </teiHeader>
    
   <text>
       <body>
+      <cb n="1"/>
          <p>Some text here.</p>
+         <cb n="2"/>
+         <p>text</p>
+         <pb/>
       </body>
   </text>
 </TEI>
