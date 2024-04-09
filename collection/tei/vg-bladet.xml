@@ -33,7 +33,7 @@
             </address>
             <date when="2024-05-24" calendar="Gregorian">24 May 2024</date>
             <availability status="free">
-               <licence>Publiceras via GitHub online under <ref target="https://creativecommons.org/licenses/by-sa/4.0/">
+               <licence>Publiceras via GitHub online under <ref target="https://creativecommons.org/licenses/by/4.0/">
                   Creative Commons Attribution 4.0 International</ref></licence>
                <p>I gott samarbete med Gummifarbriken i Värnamo, Sverige</p>
             </availability>
@@ -113,7 +113,7 @@
   <text>
       <body>
       <cb n="1"/>
-         <p>Some text here.</p>
+         <p>Some text here kolumner betyder cb.</p>
          <cb n="2"/>
          <p>text</p>
          <pb/>
