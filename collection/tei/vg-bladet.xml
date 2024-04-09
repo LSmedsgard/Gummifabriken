@@ -60,7 +60,6 @@
                      <date when="1967-03">Mars 1967</date>
                   </imprint>
                   <extent>5s.</extent>
-                  <!--Kommentar: Hur många sidor är det? Framsida? Baksida?-->
                </monogr>
             </biblStruct>
          </sourceDesc>
@@ -89,6 +88,7 @@
            <rendition xml:id="underlined" 
               scheme="css">font-style: underlined; 
            </rendition>
+           <!-- Ska vi ha layout handskrivet här? -->
         </tagsDecl>
      </encodingDesc>
      
@@ -97,25 +97,39 @@
            <language ident="sv">Swedish</language>
         </langUsage>
         <textDesc n="personaltidning från Gummifarbriken i Värnamo">
-           <channel mode="w">tryckt med blåstencil</channel>
+           <channel mode="w">Tryckt med blåstencil</channel>
            <constitution type="single"/>
-           <derivation type="original"/>
+           <derivation type="original">Varje kopia räknas som orignial</derivation>
            <domain type="personaltidning"/>
-           <factuality type="fact"/>
-           <interaction type="inapplicable"/>
-           <preparedness type="revised"/>
-           <purpose type="inform" degree="high"/>
+           <factuality type="inapplicable"/>
+           <interaction type="partial" passive="group"/>
+           <preparedness type="formulaic"/>
+           <purpose type="inform" degree="medium"/>
+           <purpose type="entertain" degree="medium"/>
         </textDesc>
      </profileDesc>
-     <!-- Kolla upp dessa constitution, factuality, interaction, prepardness -->
+     
+     <!-- borde vi ha en layoutbeskrvning? -->
   </teiHeader>
    
   <text>
       <body>
-      <cb n="1"/>
+         <pb n="1"/>
+         <dateline>
+            <date when="1967-03">Värnamo Mars 1967</date>
+         </dateline>
+         <head>PREMIÄRNUMMER</head>
+         <head>VEGE-bladet</head> 
+         <figure>
+            <figDesc>Handskriven text?</figDesc>
+         </figure>
+         <!-- hur lägger vi upp layouten? -->
+         <p>Skriven av S Ribbenmo</p>
+         <cb n="1"/>
          <p>Some text here kolumner betyder cb.</p>
          <cb n="2"/>
          <p>text</p>
+        
          <pb/>
       </body>
   </text>
