@@ -42,7 +42,7 @@
          <notesStmt>
             <note>Examination för kursen Digitalisering för bevarande och tillgänglighet vid 
                Högskolan i Borås</note>
-            <note>Bildfångst gjort med scanner Epson Perfection V600 Photo, Model: J252A...</note>
+            <note>Bildfångst gjort med scanner Epson Perfection V600 Photo, Model: J252A</note>
             <note>Transkribering är gjord manuellt</note>
             <note>Transkription gjord i XML med oXygen editor</note>
          </notesStmt>
@@ -111,7 +111,9 @@
      
      <!-- borde vi ha en layoutbeskrvning? -->
   </teiHeader>
-   
+   <!-- Ska vi ha en <facsimile> <surface xml:id="vege">
+            <figure> <label>Gummifabriken</label><figDesc> här? 
+            För att ge bilderna ett id?-->
   <text>
       <body>
          <pb n="1"/>
