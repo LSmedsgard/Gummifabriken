@@ -114,12 +114,12 @@
      <!-- borde vi ha en layoutbeskrivning? nej -->
   </teiHeader>
    <facsimile>
-      <surface xml:id="Gummi">
+      <surface xml:id="VG">
          <figure>
             <label>Gummifabriken Värnamo</label>
             <figDesc>Premiärnummret av Gummifabrikens personaltidning. 
             </figDesc>
-            <!--  <graphic xml:id="Gummi_001-1" url -->
+            <!--  <graphic xml:id="VG_001-1" url -->
             
    <!-- Kolla ex-->
          </figure>
