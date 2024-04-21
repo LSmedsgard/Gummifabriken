@@ -24,7 +24,7 @@
          
          <publicationStmt>
             <authority>Nour Abbas, Evelina Fant, Emeli Hellström, Linnea Smedsgård</authority>
-            <distributor>Högskolan i Borås</distributor>
+            <distributor>Högskolan i Borås</distributor> <!-- behöver kanske inte ta med? Gummifabriken? Kommunen?-->
             <address>
                <settlement>Borås</settlement>
                <street>Allégatan 1</street>
@@ -48,7 +48,9 @@
          </notesStmt>
             
          <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-            <!--Kommentar: Var kan vi lägga in den här informationen om primärkällan <p>Information om källdokumentet som den här elektroniska publiceringen baseras på: Gummifabrikens personaltidning tryckt med blåstencil</p>Hur många sidor är det? Framsida? Baksida?-->            
+            <!--Kommentar: Var kan vi lägga in den här informationen om primärkällan <p>Information om källdokumentet 
+               som den här elektroniska publiceringen baseras på: Gummifabrikens personaltidning tryckt med blåstencil</p>Hur många sidor är det? Framsida? Baksida?
+            kan fungera som <p>--> 
             <biblStruct>   
                <monogr>
                   <title type="main">VEGE-bladet</title>
@@ -109,11 +111,21 @@
         </textDesc>
      </profileDesc>
      
-     <!-- borde vi ha en layoutbeskrvning? -->
+     <!-- borde vi ha en layoutbeskrivning? nej -->
   </teiHeader>
-   <!-- Ska vi ha en <facsimile> <surface xml:id="vege">
-            <figure> <label>Gummifabriken</label><figDesc> här? 
-            För att ge bilderna ett id?-->
+   <facsimile>
+      <surface xml:id="Gummi">
+         <figure>
+            <label>Gummifabriken Värnamo</label>
+            <figDesc>Premiärnummret av Gummifabrikens personaltidning. 
+            </figDesc>
+            <!--  <graphic xml:id="Gummi_001-1" url -->
+            
+   <!-- Kolla ex-->
+         </figure>
+      </surface>
+   </facsimile>
+   
   <text>
       <body>
          <pb n="1"/>
