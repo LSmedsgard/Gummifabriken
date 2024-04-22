@@ -111,7 +111,11 @@
         </textDesc>
      </profileDesc>
      
-     <!-- borde vi ha en layoutbeskrivning? nej -->
+     <!-- borde vi ha en layoutbeskrivning? nej. Så här gjorde de i tei-ex. <handNotes>
+<handNote xml:id="HR" scribe="Hanna​Renton" script="handwritten" medium="pencil" scope="major">
+<p>the document​'s main hand, Hanna Renton</p>
+</handNote>
+ -->
   </teiHeader>
    <facsimile>
       <surface xml:id="VG">
@@ -119,32 +123,120 @@
             <label>Gummifabriken Värnamo</label>
             <figDesc>Premiärnummret av Gummifabrikens personaltidning. 
             </figDesc>
-            <!--  <graphic xml:id="VG_001-1" url -->
-            
-   <!-- Kolla ex-->
+            <graphic xml:id="VG_001_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid01_fram.jpg"></graphic>
+            <graphic xml:id="VG_001-2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid01_bak.jpg"></graphic>
+            <graphic xml:id="VG_002-1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid02_fram.jpg"></graphic>
+            <graphic xml:id="VG_002-2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid02_bak.jpg"></graphic>
+            <graphic xml:id="VG_003_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid03_fram.jpg"></graphic>
+            <graphic xml:id="VG_003_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid03_bak.jpg"></graphic>
+            <graphic xml:id="VG_004_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid04_fram.jpg"></graphic>
+            <graphic xml:id="VG_004_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid04_bak.jpg"></graphic>
+            <graphic xml:id="VG_005_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid05_fram.jpg"></graphic>
+            <graphic xml:id="VG_005_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid05_bak.jpg"></graphic>
+        
          </figure>
       </surface>
    </facsimile>
    
   <text>
       <body>
-         <pb n="1"/>
-         <dateline>
-            <date when="1967-03">Värnamo Mars 1967</date>
-         </dateline>
-         <head>PREMIÄRNUMMER</head>
-         <head>VEGE-bladet</head> 
-         <figure>
-            <figDesc>Handskriven text?</figDesc>
-         </figure>
-         <!-- hur lägger vi upp layouten? -->
-         <p>Skriven av S Ribbenmo</p>
-         <cb n="1"/>
-         <p>Some text here kolumner betyder cb.</p>
+         <!-- varje div innehåller en separat enhet av text-->
+         <!--Fil VGblad_sid01_fram.tif -->
+         
+         <pb facs="#VG_001-1"/>
+         <div type="page"> 
+            <pb n="1"/> 
+            
+            <head type="handwritten">PREMIÄRNUMMER</head>
+            <head type="handwritten"><hi>rend="bold"</hi>VeGe-bladet</head> <!-- eller ska det vara fw? -->
+            <ab rend="top-right">Värnamo Mars 1967. Årgång 1 nr 1.</ab>
+            <ab rend="right">Skriven av S Ribbenmo</ab>
+         </div>
+           
+            <!-- hur lägger vi upp layouten?<figure><figDesc>Handwritten</figDesc></figure>  <p>Some text here kolumner betyder cb.</p>-->
+         
+         <div rend="left column"> 
+            <cb n="1"/>
+            
+            <p>Ett företag av VG:s storlek bör<lb/> 
+               väl ha en personaltidning. Den<lb/> 
+               uppfattningen delas av många och<lb/> 
+               önskemålet har funnits sedan lång<lb/> 
+               tid tillbaka.<lb/>
+               
+               Att göra denna personaltidning<lb/> 
+               har varit en mycket roande upp-<lb/>
+               gift, men att göra den så, att<lb/> 
+               texten faller alla på läppen, är<lb/> 
+               som Ni förstår omöjligt.<lb/>  
+               
+               Innehållet är blandat, men för-<lb/>
+               hoppningen är att den skall vara<lb/> 
+               så roande som möjligt.<lb/> 
+               
+               Klagomål kan ju komma, och därför<lb/> 
+               eliminerar vi eventuella efterräk-<lb/>
+               ningar, genom att be de icke nöjda<lb/> 
+               om ursäkt,<lb/> 
+               
+               så dé så.<lb/> 
+               
+               -o-o-<lb/> 
+               
+               Ni har kanske egna idéer om hur<lb/>  
+               tidningen skall se ut, och vi<lb/>  
+               poängterar, att vi gärna tar emot<lb/>  
+               tips om detta.<lb/>   
+               
+               Vi är också tacksamma för bidrag,<lb/>  
+               lämpliga att föras in i tidningen.<lb/> 
+               
+               -o-o-<lb/>  
+               
+            </p>
+         </div>
+         
+         <div rend="right column">
          <cb n="2"/>
-         <p>text</p>
+            
+            <p>Till företagsledningen!<lb/>
+               
+               Uppmaningen att svenska folket skall<lb/> 
+               motionera och idrotta mera, är väl<lb/> 
+               något som snart blivit en slogan.<lb/>
+               
+               Det säjs ju, att man mår bättre, och<lb/> 
+               att prestandan höjs avsevärt, om man<lb/> 
+               då och då ägnar sej åt någon form av<lb/> 
+               idrott.<lb/>  
+               
+               Företaget har här en möjlighet att i<lb/> 
+               en sportgren få personalen att motio-<lb/>
+               nera mera, och därmed avses tennis.<lb/>
+               
+               Vid Norrgeårdsfabriken förfogar före-<lb/>
+               taget över ett ypperligt område, som<lb/> 
+               nu är outnyttjat. Att iordningställa<lb/> 
+               en tennisplan där vore idealiskt.<lb/>  
+               
+               Likaså har vi ett mycket trivsamt<lb/> 
+               och trevligt lunchrum som utnyttjas<lb/> 
+               mycket lite. Kunde man inte tänka<lb/> 
+               sej att där få sätta upp några bord-<lb/>
+               tennisbord, samt att alla schack-<lb/> 
+               och bridgespelare inom företaget<lb/> 
+               finge hålla till där.<lb/>
+               
+               Vi vädjar till företagsledningen att<lb/> 
+               ta upp detta till diskussion.<lb/>  
+               
+               -o-o-<lb/> 
+            </p>
         
          <pb/>
+         <!-- pb markerar slutet på sidan -->
+         </div>
+         
       </body>
   </text>
 </TEI>
