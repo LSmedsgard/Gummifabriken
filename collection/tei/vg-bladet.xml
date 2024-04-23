@@ -165,12 +165,12 @@
                texten faller alla på läppen, är<lb/> 
                som Ni förstår omöjligt.<lb/>  
                
-               Innehållet är blandat, men för-<lb/>
+               Innehållet är blandat, men för-<lb break="no" type="sh"/>
                hoppningen är att den skall vara<lb/> 
                så roande som möjligt.<lb/> 
                
                Klagomål kan ju komma, och därför<lb/> 
-               eliminerar vi eventuella efterräk-<lb/>
+               eliminerar vi eventuella efterräk-<lb break="no" type="sh"/> <!-- kolla upp sh! -->
                ningar, genom att be de icke nöjda<lb/> 
                om ursäkt,<lb/> 
                
@@ -202,10 +202,10 @@
                idrott.<lb/>  
                
                Företaget har här en möjlighet att i<lb/> 
-               en sportgren få personalen att motio-<lb/>
+               en sportgren få personalen att motio-<lb break="no" type="sh"/>
                nera mera, och därmed avses tennis.<lb/>
                
-               Vid <orgName>Norrgeårdsfabriken</orgName> förfogar före-<lb/>
+               Vid <orgName>Norrgeårdsfabriken</orgName> förfogar före-<lb break="no" type="sh"/>
                taget över ett ypperligt område, som<lb/> 
                nu är outnyttjat. Att iordningställa<lb/> 
                en tennisplan där vore idealiskt.<lb/>  
@@ -242,14 +242,14 @@
                   löneförhandlingar för de anställda<lb/>  
                   tjänstemännen.<lb/> 
                
-                  Det treprocentiga generella löne-<lb/> 
+                  Det treprocentiga generella löne-<lb break="no" type="sh"/> 
                   lyftet har krympt till 0,56%, enär<lb/>  
-                  vi den 1 februari fick en arbets-<lb/> 
+                  vi den <date>1 februari</date> fick en arbets-<lb break="no" type="sh"/> 
                   tidsförkortning med en timma per<lb/>  
                   vecka.<lb/> 
                
-                  De nya avtalen gäller från den 1<lb/>  
-                  februari, respektive 1 april.<lb/>  
+                  De nya avtalen gäller från den <date>1<lb/>  
+                  februari</date>, respektive <date>1 april</date>.<lb/>  
                </p>
                
                
@@ -263,7 +263,7 @@
                
                   Samma datum för de nya avtalen<lb/> 
                   gäller även här, alltså från den<lb/> 
-                  1 februari, respektive 1 april.<lb/> 
+                  <date>1 februari</date>, respektive <date>1 april</date>.<lb/> 
                </p>
                
                <ab rend="center"><hi rend="bold">SIF-STEPENDIAT</hi></ab>
@@ -293,17 +293,17 @@
                      
                      OBS!<lb/>
                      
-                     Absolut sista rallyt med vänster-
+                     Absolut sista rallyt med vänster-<lb break="no" type="sh"/>
                      körnin<hi rend="handwritten">en smiley</hi>!<lb/> 
                      </p>
                   
                   <ab rend="center"><hi rend="bold">ATT HA RYGGEN FRI</hi></ab>
-                  <p>Har Du någonsin handlar efter pa-<lb/>
+                  <p>Har Du någonsin handlar efter pa-<lb break="no" type="sh"/>
                      rollen “Jag gör på det viset, så<lb/> 
                      har Jag ryggen fri”.<lb/>
                      
                      Den som har en sådan inställning<lb/> 
-                     till sin arbetsuppgift borde sna-<lb/>
+                     till sin arbetsuppgift borde sna-<lb break="no" type="sh"/>
                      rast avskiljas från sin syssla.<lb/> 
                      Hans åtgärder är inte dirigerade<lb/> 
                      av en ärlig strävan att göra sitt<lb/> 
@@ -326,6 +326,95 @@
             
          </div>
          
+         <!--Fil VGblad_sid03_fram.tif -->
+         
+         <pb facs="#VG_003-1"/>
+         <div type="page"> 
+            <pb n="II"/>
+            </div>
+         
+         <div rend="left column">
+            <cb n="1"/>
+            <ab rend="center"><hi rend="bold">VART ÅKER VI PÅ SEMESTERN?</hi></ab>
+            <p>Vid en rundfråga hos de anställda,<lb/>  
+               vart de åker på semester, gav de<lb/>  
+               mest skiftande svar.<lb/> 
+               
+               Utlandsresorna dominerar, men det<lb/>  
+               finns faktiskt en och annan som<lb/>  
+               stannar inom landets gränser.<lb/> 
+               
+               Så här svarade de tillfrågade:<lb/> 
+               
+               <name>Gustaf Palmborg</name><lb/>
+               <hi rend="underlined">Verkstadskontoret</hi><lb/> 
+               Jag och min familj kommer att göra<lb/>  
+               en resa till nordligaste <country>Sverige</country>,<lb/>  
+               där fotvandring i <settlement>fjällen</settlement> står på<lb/> <!-- ska fjällen vara ett settlement? -->  
+               <objectType>programmet</objectType>. Vi hoppas även hinna<lb/>  
+               med en avstickare in i <country>Norge</country>.<lb/> 
+               
+               (Gustav! “Bättre en fjälla i veckan, än en vecka i fjällen”.)    
+                </p>
+
+               <figure rend="center">
+                  <figDesc>Syntolkning: Bild på en påpälsad man med ryggsäck som 
+                     bestiger ett snöigt berg. Han pustar och ordet “<hi rend="italic">Pust</hi>” 
+                     står skrivet.</figDesc>
+               </figure>
+            <p><name>Gun-Britt Norrman</name><lb/>
+               <hi rend="underlined">Telefonväxeln </hi><lb/>
+               Inget är planerat ännu, men jag<lb/> 
+               funderar på bilsemester inom<lb/> 
+               <country>Sverige</country>. Förra året hyrde jag en<lb/> 
+               stuga på <settlement>Gotland</settlement>, och det är ju<lb/> 
+               trevligt med omväxling.<lb/>  
+            </p>
+         </div>
+         
+         <div rend="right column">
+               <cb n="2"/>
+               
+               <p><name>Rolf Andersson </name><lb/>
+                  <hi rend="underlined"></hi>Inköpsavdelningen<lb/>
+                  
+                  Jag och min fru bilade förra året<lb/> 
+                  till <country>Schweis</country> och <country>Österrike</country>. Det<lb/> 
+                  blir i år ett da capo på den resan.<lb/> 
+                  Jag tror vi får en underbar se-<lb break="no" type="sh"/>
+                  mester, med många trevliga över-<lb break="no" type="sh"/>
+                  nattningar längs alpvägarna.<lb/>
+                  
+                  (Jaså, minsann.)<lb/>
+               </p>
+               <figure rend="center">
+                  <figDesc>Syntolkning: Bild på ett berg med serpentinvägar och en stuga. 
+                     Finns en pratbubbla från stugan där det står “Ingen..”.</figDesc> <!-- hjälp! får inte använda unclear! Vad ska användas vid otydligt isf?-->
+               </figure>
+            </div>
+         
+         <div rend="right column">
+            <cb n="2"/>
+            <p><name>Hjördis Carlsson</name><lb/>
+               <hi rend="underlined">Faktureringen </hi><lb/>
+                  Jag och min väninna flyger till<lb/> 
+                  <country>Spanien</country> eller till <country>Italien</country>. Vi<lb/> 
+                  vill få konstaterat en temperamen-<lb break="no" type="sh"/>
+                  tet hos den maliga befolkningen<lb/> 
+                  är så eldigt som det säjs. Vi<lb/> 
+                  hoppas åtminstone det!<lb/>
+                  
+                  (De får säkert en trevlig semester.)<lb/>  
+                  </p>
+            
+            <figure rend="center">
+               <figDesc>Syntolkning: En bild på ett flygplan och ovanför det ett större hjärta 
+                  innehållande två personer. Bredvid står texten: “Längtan till södern.”.</figDesc> 
+            </figure>
+         </div>
+   
+   
+   
       </body>
   </text>
 </TEI>
