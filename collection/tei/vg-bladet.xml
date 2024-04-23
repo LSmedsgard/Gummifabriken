@@ -11,31 +11,30 @@
             <funder>Gummifabriken Värnamo</funder>
             <respStmt>
                <resp>Tei-xml, transkribering</resp>
-               <name xml:id="EF">Evelina Fant</name>
-               <name xml:id="LS">Linnea Smedsgård</name>
+               <name>Evelina Fant</name>
+               <name>Linnea Smedsgård</name>
             </respStmt>
             <respStmt>
                <resp>Bildfångst, html</resp>
-               <name xml:id="NA">Nour Abbas</name>
-               <name xml:id="EH">Emeli Hellström</name>
+               <name>Nour Abbas</name>
+               <name>Emeli Hellström</name>
             </respStmt>
          </titleStmt>
-         <!--Kommentar: Hur ska vi skriva allas namn respektive ansvar?-->
          
          <publicationStmt>
             <authority>Nour Abbas, Evelina Fant, Emeli Hellström, Linnea Smedsgård</authority>
-            <distributor>Högskolan i Borås</distributor> <!-- behöver kanske inte ta med? Gummifabriken? Kommunen?-->
+            <distributor>Gummifabriken</distributor>
             <address>
-               <settlement>Borås</settlement>
-               <street>Allégatan 1</street>
-               <postCode>SE-501 90</postCode>
+               <settlement>Värnamo</settlement>
+               <street>Jönköpingsvägen 15</street>
+               <postCode>33134</postCode>
                <country>Sweden</country>
             </address>
             <date when="2024-05-24" calendar="Gregorian">24 May 2024</date>
             <availability status="free">
                <licence>Publiceras via GitHub online under <ref target="https://creativecommons.org/licenses/by/4.0/">
                   Creative Commons Attribution 4.0 International</ref></licence>
-               <p>I gott samarbete med Gummifarbriken i Värnamo, Sverige</p>
+               <p>I gott samarbete med Gummifarbriken i Värnamo, Sverige.</p>
             </availability>
          </publicationStmt>
          
@@ -48,10 +47,6 @@
          </notesStmt>
             
          <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-            <!--Kommentar: Var kan vi lägga in den här informationen om primärkällan <p>Information om källdokumentet 
-               som den här elektroniska publiceringen baseras på: Gummifabrikens personaltidning tryckt med blåstencil
-               </p>Hur många sidor är det? Framsida? Baksida?
-            kan fungera som <p>--> 
             <biblStruct>   
                <monogr>
                   <title type="main">VEGE-bladet</title>
@@ -91,13 +86,15 @@
            <rendition xml:id="underlined" 
               scheme="css">font-style: underlined; 
            </rendition>
-           <!-- Ska vi ha layout handskrivet här? -->
+           <rendition xml:id="handwritten" 
+              scheme="css">font-style: handwritten;
+           </rendition>
         </tagsDecl>
      </encodingDesc>
      
      <profileDesc>
         <langUsage>
-           <language ident="sv">Swedish</language>
+           <language ident="sv">Swedish</language> <!-- Kommentar är sv Sweden?-->
         </langUsage>
         <textDesc n="personaltidning från Gummifarbriken i Värnamo">
            <channel mode="w">Tryckt med blåstencil</channel>
@@ -111,13 +108,9 @@
            <purpose type="entertain" degree="medium"/>
         </textDesc>
      </profileDesc>
-     
-     <!-- borde vi ha en layoutbeskrivning? nej. Så här gjorde de i tei-ex. <handNotes>
-<handNote xml:id="HR" scribe="Hanna​Renton" script="handwritten" medium="pencil" scope="major">
-<p>the document​'s main hand, Hanna Renton</p>
-</handNote>
- -->
+
   </teiHeader>
+   
    <facsimile>
       <surface xml:id="VG">
          <figure>
@@ -155,18 +148,18 @@
             <ab rend="right">Skriven av <name role="author" type="person">S Ribbenmo</name></ab>
          </div>
            
-            <!-- hur lägger vi upp layouten?<figure><figDesc>Handwritten</figDesc></figure>  <p>Some text here kolumner betyder cb.</p>-->
+            <!-- <p>Some text here kolumner betyder cb.</p>-->
          
          <div rend="left column"> 
             <cb n="1"/> <!-- kanske borde läsa på lite mer om kolumner så vi använder det rätt -->
             
-            <p>Ett företag av VG:s storlek bör<lb/> 
-               väl ha en personaltidning. Den<lb/> 
+            <p>Ett företag av <orgName>VG</orgName>: storlek bör<lb/> 
+               väl ha en <objectType>personaltidning</objectType>. Den<lb/> 
                uppfattningen delas av många och<lb/> 
                önskemålet har funnits sedan lång<lb/> 
                tid tillbaka.<lb/>
                
-               Att göra denna personaltidning<lb/> 
+               Att göra denna <objectType>personaltidning</objectType><lb/> 
                har varit en mycket roande upp-<lb/>
                gift, men att göra den så, att<lb/> 
                texten faller alla på läppen, är<lb/> 
@@ -183,17 +176,13 @@
                
                så dé så.<lb/> 
                
-               -o-o-<lb/> 
-               
                Ni har kanske egna idéer om hur<lb/>  
-               tidningen skall se ut, och vi<lb/>  
+               <objectType>tidningen</objectType> skall se ut, och vi<lb/>  
                poängterar, att vi gärna tar emot<lb/>  
                tips om detta.<lb/>   
                
                Vi är också tacksamma för bidrag,<lb/>  
                lämpliga att föras in i tidningen.<lb/> 
-               
-               -o-o-<lb/>  
                
             </p>
          </div>
@@ -216,7 +205,7 @@
                en sportgren få personalen att motio-<lb/>
                nera mera, och därmed avses tennis.<lb/>
                
-               Vid Norrgeårdsfabriken förfogar före-<lb/>
+               Vid <orgName>Norrgeårdsfabriken</orgName> förfogar före-<lb/>
                taget över ett ypperligt område, som<lb/> 
                nu är outnyttjat. Att iordningställa<lb/> 
                en tennisplan där vore idealiskt.<lb/>  
@@ -231,8 +220,7 @@
                
                Vi vädjar till företagsledningen att<lb/> 
                ta upp detta till diskussion.<lb/>  
-               
-               -o-o-<lb/> 
+
             </p>
         
          <pb/>
@@ -249,7 +237,7 @@
             <div rend="left column"> 
                <cb n="1"/> <!-- kanske borde läsa på lite mer om kolumner så vi använder det rätt -->
                
-               <ab rend="center">SIF-NYTT</ab>
+               <ab rend="center"><hi rend="bold">SIF-NYTT</hi></ab>
                <p>Sedan någon vecka tillbaka pågår<lb/> 
                   löneförhandlingar för de anställda<lb/>  
                   tjänstemännen.<lb/> 
@@ -265,7 +253,7 @@
                </p>
                
                
-               <ab rend="center">SALF-NYTT</ab>
+               <ab rend="center"><hi rend="bold">SALF-NYTT</hi></ab>
                <p>Även för Salf-tjänstemännen pågår<lb/> 
                   löneförhandlingar.<lb/>
                
@@ -278,13 +266,13 @@
                   1 februari, respektive 1 april.<lb/> 
                </p>
                
-               <ab rend="center">SIF-STEPENDIAT</ab>
+               <ab rend="center"><hi rend="bold">SIF-STEPENDIAT</hi></ab>
                <p>Ett stipendium på 1 700 kronor har<lb/> 
                   tilldelats kontrollchefen på sektio<lb/>n 
                   industrigummi <name>R Tuscher</name>. Stipendiet<lb/> 
-                  skall användas för studier i England.<lb/>
+                  skall användas för studier i <country>England</country>.<lb/>
                   
-                  Tuscher avreser i slutet av mars<lb/> 
+                  <name>Tuscher</name> avreser i slutet av mars<lb/> 
                   månad, och beräknas vara borta i<lb/> 
                   tre veckor.<lb/>
                   
@@ -295,7 +283,7 @@
                <div rend="right column">
                   <cb n="2"/>
                   
-                  <ab rend="center">TÄVLINGAR</ab>
+                  <ab rend="center"><hi rend="bold">TÄVLINGAR</hi></ab>
                   <p>Även i år kommer ett VG-rally att<lb/> 
                      anordnas. Tidpunkten för detta<lb/> 
                      återkommer vi till.<lb/>
@@ -309,7 +297,7 @@
                      körnin<hi rend="handwritten">en smiley</hi>!<lb/> 
                      </p>
                   
-                  <ab rend="center">ATT HA RYGGEN FRI</ab>
+                  <ab rend="center"><hi rend="bold">ATT HA RYGGEN FRI</hi></ab>
                   <p>Har Du någonsin handlar efter pa-<lb/>
                      rollen “Jag gör på det viset, så<lb/> 
                      har Jag ryggen fri”.<lb/>
@@ -328,7 +316,7 @@
                      Vi bara frågar?<lb/> 
                   </p>
                   
-                  <figure rend="down-right">
+                  <figure rend="down">
                      <figDesc>Syntolkning ANNONS: En bild av en kvinna i profil från vänster 
                         och en kvinna i profil från höger. Både i korta, tighta kläder. 
                         Kvinnan till vänster säger “HERRE GUD VAD KILLARNA PÅ FABRIKEN 
