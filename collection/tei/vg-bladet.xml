@@ -416,8 +416,99 @@
             </figure>
             
          </div>
+<<<<<<< Updated upstream
    
    
+=======
+         
+         <!--Fil VGblad_sid04_fram.tif -->
+         
+         <pb facs="#VG_004-1"/>
+         <div type="page"> 
+            <pb n="III"/> <!-- IV? -->
+         </div>
+         
+        <div rend="left column">
+           <cb n="1"/>
+           
+           <p><name>Rolf Adolfsson</name><lb/>
+              <hi rend="underlined">Försäljningen</hi><lb/>
+           </p>
+           <p>
+           Min fru och jag åker troligen till<lb/> 
+           <region>Öland</region>. Vi har där möjlighet att <lb/>
+           gratis få disponera en stuga, och <lb/>
+              den möjligheten vill vi gärna ut-<lb break="no" type="sh"/>
+           nyttja. (Ja, se smålänningar). <lb/>
+           
+           Vi kan även tänka oss koppla på <lb/>
+           husvagnen, men det troliga blir <lb/>
+           <region>Öland</region>. <lb/>
+           </p>
+            
+              <figure rend="center">
+                 <figDesc>Syntolkning: Bild på en timmerstuga omgiven 
+                    av två stora björkar och ett utedass i bakgrunden.</figDesc>
+              </figure>
+          
+         
+          <p> <name>Ulla-Britt Johansson</name> 
+           <hi rend="underlined">Skrivcentralen</hi><lb/>
+           
+           Jag och min lille “gulleplutt” <lb/>
+           skall ut och tälta i år. Jag är <lb/>
+           nu så gammal, så jag får åka för <lb/>
+           mamma. Men jag har förstås fått <lb/>
+           lova att vara rädd om mej. Vart <lb/>
+           vi ska åka? - Till Dalarna. <lb/>
+           </p>
+           
+           <figure rend="center"><figDesc>Syntolkning: Bild på ett tält 
+              i soluppgång/solnedgång med berg i bakgrunden och en skylt 
+              där det står “Vill ej bli störda!”. </figDesc></figure>
+           
+           </div>
+           <div rend="right column">
+              <cb n="2"/>
+           
+          <p> <name>Torsten Pettersson</name> <lb/>
+           <hi rend="underlined">Norregårdsfabriken </hi><lb/>      
+           
+           I många år har jag tänkt att med <lb/>
+           min familj göra en utlandsresa. <lb/>
+           I år ser det ut att bli av, och <lb/>
+           resmålet blir då Tyskland. <lb/>
+           
+           (Undras om han inte ville åka ensam.) <lb/>
+          </p>
+           
+          <figure><figDesc> Syntolkning: Bild på en person som sitter i en 
+             cabriolet och ovan finns en stor skylt där det står HAMBURG 13.</figDesc></figure>
+           
+          <p> <name>Siri Jonasson</name><lb/>
+           <hi rend="underlined">Ekonomiavdelningen</hi> <lb/>
+           
+           Jag tar för det mesta vinter-<lb break="no" type="sh"/>
+           semester, och så blir fallet även <lb/>
+           i år. Förra året var jag i Tuni-<lb break="no" type="sh"/>
+           sien, och i år ställer jag kosan <lb/>
+           till Marocko. <lb/>
+           
+           (Siri har lovat att göra ett repo-<lb break="no" type="sh"/>
+           tage från sin resa, om inte någon <lb/>
+           tjusig kameldrivare lägger beslag <lb/>
+           på henne.) <lb/>
+          </p>
+           <figure><figDesc>Syntolkning: Bild på ett soligt 
+              och sandigt landskap med tre palmer och några tält i mellangrunden. 
+              I förgrunden står det en möjlig kameldrivare och tittar på oss. 
+              Längst ner på bilden står “Han väntar!”. </figDesc></figure>
+           <!-- Borde vi sätta lb i syntolkningarna? Eller fixas det i html? -->
+           
+          
+        </div>
+
+>>>>>>> Stashed changes
    
       </body>
   </text>
