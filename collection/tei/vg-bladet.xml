@@ -182,7 +182,7 @@
                tips om detta.<lb/>   
                
                Vi är också tacksamma för bidrag,<lb/>  
-               lämpliga att föras in i tidningen.<lb/> 
+               lämpliga att föras in i <objectType>tidningen</objectType>.<lb/> 
                
             </p>
          </div>
@@ -230,6 +230,7 @@
          <!-- Fil VGblad_sid02_fram.tif -->
          
          <pb facs="#VG_002-1"/>
+         
          <div type="page"> 
             <pb n="I"/>
          </div>
@@ -350,11 +351,11 @@
                <hi rend="underlined">Verkstadskontoret</hi><lb/> 
                Jag och min familj kommer att göra<lb/>  
                en resa till nordligaste <country>Sverige</country>,<lb/>  
-               där fotvandring i <settlement>fjällen</settlement> står på<lb/> <!-- ska fjällen vara ett settlement? -->  
+               där fotvandring i <geogFeat>fjällen</geogFeat> står på<lb/> <!-- ska fjällen vara ett settlement? -->  
                <objectType>programmet</objectType>. Vi hoppas även hinna<lb/>  
                med en avstickare in i <country>Norge</country>.<lb/> 
                
-               (Gustav! “Bättre en fjälla i veckan, än en vecka i fjällen”.)    
+               (<name>Gustav!</name> “Bättre en fjälla i veckan, än en vecka i fjällen”.)    
                 </p>
 
                <figure rend="center">
@@ -362,12 +363,13 @@
                      bestiger ett snöigt berg. Han pustar och ordet “<hi rend="italic">Pust</hi>” 
                      står skrivet.</figDesc>
                </figure>
+            
             <p><name>Gun-Britt Norrman</name><lb/>
                <hi rend="underlined">Telefonväxeln </hi><lb/>
                Inget är planerat ännu, men jag<lb/> 
                funderar på bilsemester inom<lb/> 
                <country>Sverige</country>. Förra året hyrde jag en<lb/> 
-               stuga på <settlement>Gotland</settlement>, och det är ju<lb/> 
+               stuga på <region>Gotland</region>, och det är ju<lb/> 
                trevligt med omväxling.<lb/>  
             </p>
          </div>
@@ -387,6 +389,7 @@
                   
                   (Jaså, minsann.)<lb/>
                </p>
+            
                <figure rend="center">
                   <figDesc>Syntolkning: Bild på ett berg med serpentinvägar och en stuga. 
                      Finns en pratbubbla från stugan där det står “Ingen..”.</figDesc> <!-- hjälp! får inte använda unclear! Vad ska användas vid otydligt isf?-->
@@ -411,6 +414,7 @@
                <figDesc>Syntolkning: En bild på ett flygplan och ovanför det ett större hjärta 
                   innehållande två personer. Bredvid står texten: “Längtan till södern.”.</figDesc> 
             </figure>
+            
          </div>
    
    
