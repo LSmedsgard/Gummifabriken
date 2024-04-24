@@ -39,8 +39,8 @@
          </publicationStmt>
          
          <notesStmt>
-            <note>Examination för kursen Digitalisering för bevarande och tillgänglighet vid 
-               Högskolan i Borås</note>
+            <note>Examination för kursen Digitalisering för bevarande och tillgänglighet 
+               vid Högskolan i Borås</note>
             <note>Bildfångst gjort med scanner Epson Perfection V600 Photo, Model: J252A</note>
             <note>Transkribering är gjord manuellt</note>
             <note>Transkription gjord i XML med oXygen editor</note>
@@ -65,21 +65,20 @@
      
      <encodingDesc>
         <editorialDecl>
-           <p>Radbrytningar, styckebrytningar och indrag har bevarats i transkriptionen. 
-              Layouten på sidan har bevarats när det är möjligt.</p> 
+           <p>Radbrytningar, styckebrytningar och indrag har bevarats i 
+              transkriptionen. Layouten på sidan har bevarats när det är möjligt.</p> 
               <hyphenation> 
                  <p>Förkortningar och stavningar har bibehållits i transkriptionerna, 
-                    och hela ordet och korrigerade eller moderna stavningar har tillhandahållits.</p>
+                    och hela ordet och korrigerade eller moderna stavningar har 
+                    tillhandahållits.</p>
               </hyphenation>
               <correction>
-               <p>Ord eller fraser som anses otydliga har noterats som <unclear></unclear>otydliga".</p>
+               <p>Ord eller fraser som anses otydliga har noterats som <unclear></unclear>
+                  otydliga eller som rend="unclear".</p>
               </correction>
-              <!-- Kommentar vid unclear : <unclear reason="illegible">placebo</unclear> -->
            </editorialDecl>
+        
         <tagsDecl>
-           <rendition xml:id="italics"
-              scheme="css">font-style: italic;
-           </rendition> 
            <rendition xml:id="bold"
               scheme="css">font-style: bold;
            </rendition> 
@@ -94,7 +93,7 @@
      
      <profileDesc>
         <langUsage>
-           <language ident="sv">Swedish</language> <!-- Kommentar är sv Sweden?-->
+           <language ident="sv">Swedish</language> 
         </langUsage>
         <textDesc n="personaltidning från Gummifarbriken i Värnamo">
            <channel mode="w">Tryckt med blåstencil</channel>
@@ -141,36 +140,35 @@
          <pb facs="#VG_001-1"/>
          
          <div type="page"> 
-            <fw place="top-right"><settlement type="city">Värnamo</settlement><date when="1967" calendar="Gregorian">
+            <fw place="top-right"><settlement type="city">Värnamo</settlement>
+               <date when="1967" calendar="Gregorian">
                Mars 1967</date>. Årgång 1 nr 1.</fw>
-            <fw type="handwritten"><hi rend="bold">PREMIÄRNUMMER</hi></fw>
-            <head type="handwritten"><hi>rend="bold"</hi>VeGe-bladet</head> <!-- eller ska det vara fw? -->
-            <ab rend="right">Skriven av <name role="author" type="person">S Ribbenmo</name></ab>
+            <fw type="handwritten"><hi rend="bold">PREMIÄRNUMMER.</hi></fw>
+            <head type="handwritten"><hi rend="bold">VeGe-bladet.</hi></head> 
+            <ab rend="right">Skriven av <name role="author" type="person">S Ribbenmo</name>.</ab>
          </div>
            
-            <!-- <p>Some text here kolumner betyder cb.</p>-->
-         
          <div rend="left column"> 
-            <cb n="1"/> <!-- kanske borde läsa på lite mer om kolumner så vi använder det rätt -->
+            <cb n="1"/> 
             
-            <p>Ett företag av <orgName>VG</orgName>: storlek bör<lb/> 
+            <p>Ett företag av <orgName>VG</orgName>:s storlek bör<lb/> 
                väl ha en <objectType>personaltidning</objectType>. Den<lb/> 
                uppfattningen delas av många och<lb/> 
                önskemålet har funnits sedan lång<lb/> 
                tid tillbaka.<lb/>
                
                Att göra denna <objectType>personaltidning</objectType><lb/> 
-               har varit en mycket roande upp-<lb/>
+               har varit en mycket roande upp-<lb break="no" type="sh"/> <!-- "soft hyphen". -->
                gift, men att göra den så, att<lb/> 
                texten faller alla på läppen, är<lb/> 
                som Ni förstår omöjligt.<lb/>  
                
-               Innehållet är blandat, men för-<lb break="no" type="sh"/>
+               Innehållet är blandat, men för-<lb break="no" type="sh"/> 
                hoppningen är att den skall vara<lb/> 
                så roande som möjligt.<lb/> 
                
                Klagomål kan ju komma, och därför<lb/> 
-               eliminerar vi eventuella efterräk-<lb break="no" type="sh"/> <!-- kolla upp sh! -->
+               eliminerar vi eventuella efterräk-<lb break="no" type="sh"/> 
                ningar, genom att be de icke nöjda<lb/> 
                om ursäkt,<lb/> 
                
@@ -183,49 +181,49 @@
                
                Vi är också tacksamma för bidrag,<lb/>  
                lämpliga att föras in i <objectType>tidningen</objectType>.<lb/> 
-               
-            </p>
+               </p>
+            
          </div>
          
          <div rend="right column">
          <cb n="2"/>
             
-            <p>Till företagsledningen!<lb/>
+            <ab rend="center">Till företagsledningen!</ab><lb/>
+            
+               <p>Uppmaningen att svenska folket skall<lb/>
+                  motionera och idrotta mera, är väl<lb/> 
+                  något som snart blivit en slogan.<lb/>
                
-               Uppmaningen att svenska folket skall<lb/> 
-               motionera och idrotta mera, är väl<lb/> 
-               något som snart blivit en slogan.<lb/>
+                  Det säjs ju, att man mår bättre, och<lb/> 
+                  att prestandan höjs avsevärt, om man<lb/> 
+                  då och då ägnar sej åt någon form av<lb/> 
+                  idrott.<lb/>  
                
-               Det säjs ju, att man mår bättre, och<lb/> 
-               att prestandan höjs avsevärt, om man<lb/> 
-               då och då ägnar sej åt någon form av<lb/> 
-               idrott.<lb/>  
+                  Företaget har här en möjlighet att i<lb/> 
+                  en sportgren få personalen att motio-<lb break="no" type="sh"/>
+                  nera mera, och därmed avses tennis.<lb/>
                
-               Företaget har här en möjlighet att i<lb/> 
-               en sportgren få personalen att motio-<lb break="no" type="sh"/>
-               nera mera, och därmed avses tennis.<lb/>
+                  Vid <orgName>Norrgeårdsfabriken</orgName> förfogar före-<lb break="no" type="sh"/>
+                  taget över ett ypperligt område, som<lb/> 
+                  nu är outnyttjat. Att iordningställa<lb/> 
+                  en tennisplan där vore idealiskt.<lb/>  
                
-               Vid <orgName>Norrgeårdsfabriken</orgName> förfogar före-<lb break="no" type="sh"/>
-               taget över ett ypperligt område, som<lb/> 
-               nu är outnyttjat. Att iordningställa<lb/> 
-               en tennisplan där vore idealiskt.<lb/>  
+                  Likaså har vi ett mycket trivsamt<lb/> 
+                  och trevligt lunchrum som utnyttjas<lb/> 
+                  mycket lite. Kunde man inte tänka<lb/> 
+                  sej att där få sätta upp några bord-<lb break="no" type="sh"/>
+                  tennisbord, samt att alla schack-<lb break="no" type="sh"/> 
+                  och bridgespelare inom företaget<lb/> 
+                  finge hålla till där.<lb/>
                
-               Likaså har vi ett mycket trivsamt<lb/> 
-               och trevligt lunchrum som utnyttjas<lb/> 
-               mycket lite. Kunde man inte tänka<lb/> 
-               sej att där få sätta upp några bord-<lb/>
-               tennisbord, samt att alla schack-<lb/> 
-               och bridgespelare inom företaget<lb/> 
-               finge hålla till där.<lb/>
-               
-               Vi vädjar till företagsledningen att<lb/> 
-               ta upp detta till diskussion.<lb/>  
-
-            </p>
+                  Vi vädjar till företagsledningen att<lb/> 
+                  ta upp detta till diskussion.<lb/>
+               </p>
         
          <pb/>
          <!-- pb markerar slutet på sidan -->
          </div>
+         
          
          <!-- Fil VGblad_sid02_fram.tif -->
          
@@ -233,12 +231,14 @@
          
          <div type="page"> 
             <pb n="I"/>
-         </div>
+         </div> 
          
-            <div rend="left column"> 
-               <cb n="1"/> <!-- kanske borde läsa på lite mer om kolumner så vi använder det rätt -->
+         
+         <div rend="left column"> 
+               <cb n="1"/> 
                
                <ab rend="center"><hi rend="bold">SIF-NYTT</hi></ab>
+               
                <p>Sedan någon vecka tillbaka pågår<lb/> 
                   löneförhandlingar för de anställda<lb/>  
                   tjänstemännen.<lb/> 
@@ -255,6 +255,7 @@
                
                
                <ab rend="center"><hi rend="bold">SALF-NYTT</hi></ab>
+               
                <p>Även för Salf-tjänstemännen pågår<lb/> 
                   löneförhandlingar.<lb/>
                
@@ -268,12 +269,13 @@
                </p>
                
                <ab rend="center"><hi rend="bold">SIF-STEPENDIAT</hi></ab>
+               
                <p>Ett stipendium på 1 700 kronor har<lb/> 
-                  tilldelats kontrollchefen på sektio<lb/>n 
+                  tilldelats kontrollchefen på sektion<lb/> 
                   industrigummi <name>R Tuscher</name>. Stipendiet<lb/> 
                   skall användas för studier i <country>England</country>.<lb/>
                   
-                  <name>Tuscher</name> avreser i slutet av mars<lb/> 
+                  <name>Tuscher</name> avreser i slutet av <date>mars</date><lb/> 
                   månad, och beräknas vara borta i<lb/> 
                   tre veckor.<lb/>
                   
@@ -285,6 +287,7 @@
                   <cb n="2"/>
                   
                   <ab rend="center"><hi rend="bold">TÄVLINGAR</hi></ab>
+                  
                   <p>Även i år kommer ett VG-rally att<lb/> 
                      anordnas. Tidpunkten för detta<lb/> 
                      återkommer vi till.<lb/>
@@ -292,13 +295,14 @@
                      Nya tips för rallyt lämnas till<lb/> 
                      korpföreningen på företaget.<lb/>
                      
-                     OBS!<lb/>
+                     O B S !<lb/>
                      
                      Absolut sista rallyt med vänster-<lb break="no" type="sh"/>
                      körnin<hi rend="handwritten">en smiley</hi>!<lb/> 
                      </p>
                   
                   <ab rend="center"><hi rend="bold">ATT HA RYGGEN FRI</hi></ab>
+                  
                   <p>Har Du någonsin handlar efter pa-<lb break="no" type="sh"/>
                      rollen “Jag gör på det viset, så<lb/> 
                      har Jag ryggen fri”.<lb/>
@@ -319,13 +323,15 @@
                   
                   <figure rend="down">
                      <figDesc>Syntolkning ANNONS: En bild av en kvinna i profil från vänster 
-                        och en kvinna i profil från höger. Både i korta, tighta kläder. 
-                        Kvinnan till vänster säger “HERRE GUD VAD KILLARNA PÅ FABRIKEN 
-                        TRYCKER BRA; TYCKER DU INTE DET?” och kvinnan till höger svarar 
-                        “JODÅ! MEN PÅ FÄLTHS TRYCKER DE BÄTTRE HAR JAG HÖRT:”.</figDesc>
+                        och en kvinna i profil från höger. Båda i korta, tighta kläder. 
+                        Kvinnan till vänster säger <hi rend="handwritten">HERRE GUD VAD 
+                        KILLARNA PÅ FABRIKEN TRYCKER BRA; TYCKER DU INTE DET?</hi> och 
+                        kvinnan till höger svarar <hi rend="handwritten">JODÅ! MEN PÅ FÄLTHS 
+                        TRYCKER DE BÄTTRE HAR JAG HÖRT.</hi>.
+                     </figDesc>
                   </figure> 
-            
          </div>
+         
          
          <!--Fil VGblad_sid03_fram.tif -->
          
@@ -337,6 +343,7 @@
          <div rend="left column">
             <cb n="1"/>
             <ab rend="center"><hi rend="bold">VART ÅKER VI PÅ SEMESTERN?</hi></ab>
+            
             <p>Vid en rundfråga hos de anställda,<lb/>  
                vart de åker på semester, gav de<lb/>  
                mest skiftande svar.<lb/> 
@@ -351,7 +358,7 @@
                <hi rend="underlined">Verkstadskontoret</hi><lb/> 
                Jag och min familj kommer att göra<lb/>  
                en resa till nordligaste <country>Sverige</country>,<lb/>  
-               där fotvandring i <geogFeat>fjällen</geogFeat> står på<lb/> <!-- ska fjällen vara ett settlement? -->  
+               där fotvandring i <geogFeat>fjällen</geogFeat> står på<lb/>  
                <objectType>programmet</objectType>. Vi hoppas även hinna<lb/>  
                med en avstickare in i <country>Norge</country>.<lb/> 
                
@@ -360,14 +367,15 @@
 
                <figure rend="center">
                   <figDesc>Syntolkning: Bild på en påpälsad man med ryggsäck som 
-                     bestiger ett snöigt berg. Han pustar och ordet “<hi rend="italic">Pust</hi>” 
-                     står skrivet.</figDesc>
+                     bestiger ett snöigt berg. Han pustar och ordet <hi rend="handwritten">
+                     Pust</hi> står skrivet.
+                  </figDesc>
                </figure>
             
             <p><name>Gun-Britt Norrman</name><lb/>
                <hi rend="underlined">Telefonväxeln </hi><lb/>
                Inget är planerat ännu, men jag<lb/> 
-               funderar på bilsemester inom<lb/> 
+               funderar på en bilsemester inom<lb/> 
                <country>Sverige</country>. Förra året hyrde jag en<lb/> 
                stuga på <region>Gotland</region>, och det är ju<lb/> 
                trevligt med omväxling.<lb/>  
@@ -392,17 +400,16 @@
             
                <figure rend="center">
                   <figDesc>Syntolkning: Bild på ett berg med serpentinvägar och en stuga. 
-                     Finns en pratbubbla från stugan där det står “Ingen..”.</figDesc> <!-- hjälp! får inte använda unclear! Vad ska användas vid otydligt isf?-->
+                     Finns en pratbubbla från stugan med otydlig text 
+                     <hi rend="unclear">“Ingen...”</hi>.
+                  </figDesc> <!-- observera otydlig text -->
                </figure>
-            </div>
-         
-         <div rend="right column">
-            <cb n="2"/>
+            
             <p><name>Hjördis Carlsson</name><lb/>
                <hi rend="underlined">Faktureringen </hi><lb/>
                   Jag och min väninna flyger till<lb/> 
                   <country>Spanien</country> eller till <country>Italien</country>. Vi<lb/> 
-                  vill få konstaterat en temperamen-<lb break="no" type="sh"/>
+                  vill få konstaterat om temperamen-<lb break="no" type="sh"/>
                   tet hos den maliga befolkningen<lb/> 
                   är så eldigt som det säjs. Vi<lb/> 
                   hoppas åtminstone det!<lb/>
@@ -411,14 +418,231 @@
                   </p>
             
             <figure rend="center">
-               <figDesc>Syntolkning: En bild på ett flygplan och ovanför det ett större hjärta 
-                  innehållande två personer. Bredvid står texten: “Längtan till södern.”.</figDesc> 
+               <figDesc>Syntolkning: En bild på ett flygplan och ovanför det finns 
+                  ett större hjärta innehållande två personer. Bredvid står texten: 
+                  <hi rend="handwritten">“Längtan till södern.”</hi>
+               </figDesc> 
             </figure>
-            
          </div>
-   
-   
-   
+
+         
+         <!--Fil VGblad_sid04_fram.tif -->
+         
+         <pb facs="#VG_004-1"/>
+         <div type="page"> 
+            <pb n="III"/> 
+         </div>
+         
+        <div rend="left column">
+           <cb n="1"/>
+           
+           <p><name>Rolf Adolfsson</name><lb/>
+              <hi rend="underlined">Försäljningen</hi><lb/>
+              Min fru och jag åker troligen till<lb/> 
+              <region>Öland</region>. Vi har där möjlighet att<lb/>
+              gratis få disponera en stuga, och<lb/>
+              den möjligheten vill vi gärna ut-<lb break="no" type="sh"/>
+              nyttja. (Ja, se smålänningar.) <lb/>
+           
+              Vi kan även tänka oss koppla på<lb/>
+              husvagnen, men det troliga blir<lb/>
+              <region>Öland</region>.<lb/>
+           </p>
+            
+              <figure rend="center">
+                 <figDesc>Syntolkning: Bild på en timmerstuga omgiven 
+                    av två stora björkar och ett utedass i bakgrunden.
+                 </figDesc>
+              </figure>
+           
+           <p><name>Ulla-Britt Johansson</name>
+              <hi rend="underlined">Skrivcentralen</hi><lb/> 
+              Jag och min lille <q>“gulleplutt”</q><lb/>
+              skall ut och tälta i år. Jag är<lb/>
+              nu så gammal, så jag får åka för<lb/>
+              mamma. Men jag har förstås fått<lb/>
+              lova att vara rädd om mej. Vart<lb/>
+              vi ska åka? - Till <region>Dalarna</region>.<lb/> 
+           </p>
+           
+           <figure rend="down">
+              <figDesc>Syntolkning: Bild på ett tält 
+              i soluppgång/solnedgång med berg i bakgrunden och en skylt 
+              där det står <hi rend="handwritten">Vill ej bli störda!</hi>.
+              </figDesc>
+           </figure>
+        </div>
+         
+         <div rend="right column">
+              <cb n="2"/>
+           
+          <p><name>Torsten Pettersson</name><lb/>
+             <orgName><hi rend="underlined">Norregårdsfabriken </hi></orgName><lb/>
+             I många år har jag tänkt att med<lb/>
+             min familj göra en utlandsresa.<lb/>
+             I år ser det ut att bli av, och<lb/>
+             resmålet blir då <country>Tyskland</country>.<lb/>
+             
+             (Undras om han inte ville åka ensam.) <lb/>
+          </p>
+           
+          <figure rend="center">
+             <figDesc> Syntolkning: Bild på en person som sitter i en 
+             cabriolet och ovan finns en stor skylt där det står 
+                <settlement>HAMBURG</settlement> 13.
+             </figDesc>
+          </figure>
+            
+            <p><name>Siri Jonasson</name><lb/>
+               <hi rend="underlined">Ekonomiavdelningen</hi><lb/>
+               Jag tar för det mesta vinter-<lb break="no" type="sh"/>
+               semester, och så blir fallet även<lb/>
+               i år. Förra året var jag i <country>Tuni-<lb break="no" type="sh"/>
+               sien</country>, och i år ställer jag kosan<lb/>
+               till <country>Marocko</country>.<lb/>
+               (Siri har lovat att göra ett repo-<lb break="no" type="sh"/>
+               tage från sin resa, om inte någon <lb/>
+               tjusig kameldrivare lägger beslag <lb/>
+               på henne.) <lb/>
+          </p>
+            
+           <figure rend="down">
+              <figDesc>Syntolkning: Bild på ett soligt och sandigt 
+                 landskap med tre palmer och några tält i mellangrunden. 
+                 I förgrunden står det en möjlig kameldrivare och tittar på oss. 
+                 Längst ner på bilden står <hi rend="handwritten">Han väntar!</hi>.
+              </figDesc>
+           </figure>
+         </div>
+
+
+         <!--Fil VGblad_sid05_fram.tif -->
+         
+         <pb facs="#VG_005-1"/>
+         <div type="page"> 
+            <pb n="IV"/> 
+         </div>
+         
+         <div rend="left column">
+            <cb n="1"/>
+            
+            <ab rend="center">Att kunna sälja!</ab><lb/>
+            <p>En manlig försäljare på ett stort<lb/> 
+               varuhus, sökte en dag chefen för <lb/>
+               att be om löneförhöjning.<lb/>
+               
+               Chefen lovade undersöka saken och<lb/> 
+               bad att få återkomma.<lb/>
+               
+               Försäljarens försäljningssiffror<lb/>
+               undersöktes, och befanns vara vid<lb/>
+               högre än de andra försäljarnas.<lb/>
+               Chefen blev lite misstänksam och<lb/>
+               undrade hur en enda försäljare<lb/>
+               kunde sälja så mycket.<lb/>
+               
+               Chefen smög därför ned i varuhuset,<lb/>
+               ställde sig bakom en pelare för att<lb/>
+               studera hans försäljningsteknik.<lb/>
+               
+               Försäljaren hade just en kund, och<lb/>
+               följande samtal utspann sig mellan<lb/>
+               försäljaren och kunden:<lb/>
+            
+               Det här är ett verkligt förnämligt<lb/>
+               kastspö. Utmärkt rulle, aldrig nå-<lb break="no" type="sh"/>
+               gon trasslig rev, fin svikt i spöet,<lb/>
+               ypperlig lina, som är otroligt stark,<lb/>
+               och så medföljer ett drag på köpet.<lb/>
+               
+               - Ja, det låter bra. Jag tar spöet.<lb/>
+               
+               - Jaha tack. Men låt oss nu tänka<lb/>
+               oss, att det är väldigt långgrundt,<lb/>
+               där min herre skall fiska. Då går<lb/> 
+               det ju inte att stå inne vid land<lb/>
+               och kasta. Ni kommer då att få en<lb/>
+               massa bottennapp, och på det viset<lb/>
+               förlorar ni många drag. Därför skulle<lb/>
+               jag vilja rekommendera de här sjö-<lb break="no" type="sh"/>
+               stövlarna. Med dem kan Ni gå ut i<lb/>
+               vattnet och ändå vara torrskodd. Vi<lb/>
+               säljer dem extra billigt just nu.<lb/>
+               Bara 200 kronor.<lb/>
+               
+               - Ja det är klart, att ett par stöv-<lb break="no" type="sh"/>
+               lar måste jag ju ha.<lb/>
+               
+               - Jag tackar! Men nu kan det tänka<lb/>
+               sig, att Ni befinner Er på land,<lb/>
+               och därute cirka 400 meter från land<lb/>
+               ligger ett fint grund, där det sä-<lb break="no" type="sh"/>
+               kert vimlar av fisk.<lb/>
+            </p> 
+         </div>
+         
+         <div rend="right column">
+            <cb n="2"/>
+            
+            <p>Jag vet hur Ni ska komma dit.<lb/>
+               Köp den här aluminiumbåten, liten,<lb/> 
+               lättmanövrerad, och mycket sjösäker.<lb/>
+               Priset är ju som hittat faktiskt,<lb/>
+               bara 1 000 kronor.<lb/>
+                  
+               - Ja, här skall fiskas. Jag tar<lb/>
+               båten också!<lb/>
+                  
+               - Tack så mycket, tack, tack. Men<lb/> 
+               nu kan Ni inte drar med Er alla de<lb/>
+               här grejorna upp på spårvagnen<lb/>
+               eller bussen. Ni måste helt enkelt<lb/>
+               köpa en liten bil med trailer till.<lb/>
+               Vi har här en liten fin vagn med<lb/>
+               passande trailer till aluminium-<lb break="no" type="sh"/>
+               båten. Priset håller sig inom rim-<lb break="no" type="sh"/>
+               liga gränser. Endast 10 000 kronor.<lb/>
+                  
+               - Affären är uppgjord, frugan be-<lb break="no" type="sh"/>  
+               höver ändå en shoppingbil. Jag<lb/>
+               hoppas det går bra, om jag betalar<lb/>
+               med check.<lb/>
+                  
+               - Naturligtvis. Jag skall se till<lb/>
+               att varorna sändes till Er om-<lb break="no" type="sh"/>
+               gående.<lb/>
+                  
+               Affären avslutades, och chefen dyker <lb/>
+               upp.<lb/>
+                  
+               - Ni skall omgående få en rejäl<lb/>
+               löneförhöjning. Men hur bar Ni Er<lb/>
+               åt egentligen? Börjar med ett<lb/>
+               kastspö för 50 kronor, och slutar<lb/>
+               med en bil för 10 000 kronor.<lb/>
+               Det är ju fantastiskt!<lb/>
+                  
+               - Jag hör att chefen inte var med<lb/>
+               från början. Det var nämligen så, <lb/>
+               att mannen kom in för att köpa <lb/>
+               dambindor till sin fru. Men då sa <lb/>
+               jag: ”Varför inte åka ut och fiska, <lb/>
+               när veckan ändå är förstörd”. <lb/>
+            </p> 
+            
+            <figure rend="down">
+               <figDesc>Syntolkning: En bild med två män i förgrunden 
+                  som står och tittar på en Sverigekarta med olika 
+                  många markeringar i olika distrikt. 
+                  Innehållande texten: <hi rend="handwritten"></hi>
+                  Carlson! Ta bort nålen på mell-
+                  ersta Norrlandsdistr. och stick 
+                  försäljaren i ändan med den! 
+               </figDesc>
+            </figure>
+         </div>
+         
+         
       </body>
   </text>
 </TEI>
