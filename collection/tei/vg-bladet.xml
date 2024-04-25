@@ -22,13 +22,17 @@
          </titleStmt>
          
          <publicationStmt>
-            <authority>Nour Abbas, Evelina Fant, Emeli Hellström, Linnea Smedsgård</authority>
+            <authority>Nour Abbas</authority>
+            <authority>Evelina Fant</authority>
+            <authority>Emeli Hellström</authority>
+            <authority>Linnea Smedsgård</authority>
+            
             <distributor>Gummifabriken</distributor>
             <address>
                <settlement>Värnamo</settlement>
                <street>Jönköpingsvägen 15</street>
                <postCode>33134</postCode>
-               <country>Sweden</country>
+               <country>Sweden</country> <!-- vi kollar upp det -->
             </address>
             <date when="2024-05-24" calendar="Gregorian">24 May 2024</date>
             <availability status="free">
@@ -68,9 +72,7 @@
            <p>Radbrytningar, styckebrytningar och indrag har bevarats i 
               transkriptionen. Layouten på sidan har bevarats när det är möjligt.</p> 
               <hyphenation> 
-                 <p>Förkortningar och stavningar har bibehållits i transkriptionerna, 
-                    och hela ordet och korrigerade eller moderna stavningar har 
-                    tillhandahållits.</p>
+                 <p>Förkortningar och stavningar har bibehållits i transkriptionerna.</p>
               </hyphenation>
               <correction>
                <p>Ord eller fraser som anses otydliga har noterats som <unclear></unclear>
@@ -144,7 +146,7 @@
                <date when="1967" calendar="Gregorian">
                Mars 1967</date>. Årgång 1 nr 1.</fw>
             <fw type="handwritten"><hi rend="bold">PREMIÄRNUMMER.</hi></fw>
-            <head type="handwritten"><hi rend="bold">VeGe-bladet.</hi></head> 
+            <head type="handwritten"><hi rend="bold">VEGE-bladet.</hi></head> 
             <ab rend="right">Skriven av <name role="author" type="person">S Ribbenmo</name>.</ab>
          </div>
            
