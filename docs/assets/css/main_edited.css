@@ -1,6 +1,6 @@
 
 
-body {
+.body {
 	padding: 1vw;
 	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
@@ -10,11 +10,11 @@ body {
   
 	}
 
-h1, h2, h3, h4, h6, nav, footer {
+.h1, .h2, .h3, .h4, .h6, .nav, .footer {
     text-align: center;
 }
 
-nav {
+.nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -40,7 +40,7 @@ h3 {
     text-align: center;    
 }
 
-footer {
+.footer {
     border-top: 1px solid black;
     padding-top: 1vw;
     margin-top: 1vw;
