@@ -50,9 +50,9 @@
             <note>Transkription gjord i XML med oXygen editor</note>
          </notesStmt>
             
-         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-            <biblStruct>   
-               <monogr>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">      
+            <biblStruct>                 
+               <monogr>                
                   <title type="main">VEGE-bladet</title>
                   <title type="subordinate">PREMIÄRNUMMER</title>
                   <author> Ribbenmo, S.</author>
@@ -61,9 +61,14 @@
                      <publisher>Gummifabriken</publisher>
                      <date when="1967-03">Mars 1967</date>
                   </imprint>
-                  <extent>5s.</extent>
+                  <extent>5s.</extent>         
                </monogr>
-            </biblStruct>
+               <note>En personaltidning tryckt med blåstencil/spritstencil på papper
+                  med storleken 21 cm x 29,5 cm</note>
+               <relatedItem>
+                 <bibl>Övriga nummer av VEGE-bladet senare kallat VG-bladet</bibl>
+               </relatedItem>
+            </biblStruct> 
          </sourceDesc>
       </fileDesc>
      
