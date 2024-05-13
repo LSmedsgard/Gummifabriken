@@ -26,19 +26,18 @@
             <authority>Evelina Fant</authority>
             <authority>Emeli Hellström</authority>
             <authority>Linnea Smedsgård</authority>
-            
             <distributor>Gummifabriken</distributor>
             <address>
                <settlement>Värnamo</settlement>
                <street>Jönköpingsvägen 15</street>
                <postCode>33134</postCode>
-               <country>Sweden</country> <!-- vi kollar upp det -->
+               <country>Sweden</country>
             </address>
             <date when="2024-05-24" calendar="Gregorian">24 May 2024</date>
             <availability status="free">
                <licence>Publiceras via GitHub online under <ref target="https://creativecommons.org/licenses/by/4.0/">
                   Creative Commons Attribution 4.0 International</ref></licence>
-               <p>I gott samarbete med Gummifarbriken i Värnamo, Sverige.</p>
+               <p>I gott samarbete med Gummifabriken i Värnamo, Sverige.</p>
             </availability>
          </publicationStmt>
          
