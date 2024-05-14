@@ -3,6 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -72,19 +73,19 @@
       </fileDesc>
      
      <encodingDesc>
-        <editorialDecl>
+         <editorialDecl>
            <p>Radbrytningar, styckebrytningar och indrag har bevarats i 
               transkriptionen. Layouten på sidan har bevarats när det är möjligt.</p> 
               <hyphenation> 
-                 <p>Förkortningar och stavningar har bibehållits i transkriptionerna.</p>
+                  <p>Förkortningar och stavningar har bibehållits i transkriptionerna.</p>
               </hyphenation>
               <correction>
-               <p>Ord eller fraser som anses otydliga har noterats som <unclear></unclear>
+                  <p>Ord eller fraser som anses otydliga har noterats som <unclear></unclear>
                   otydliga eller som rend="unclear".</p>
               </correction>
-           </editorialDecl>
+         </editorialDecl>
         
-        <tagsDecl>
+         <tagsDecl>
            <rendition xml:id="bold"
               scheme="css">font-style: bold;
            </rendition> 
@@ -94,7 +95,7 @@
            <rendition xml:id="handwritten" 
               scheme="css">font-style: handwritten;
            </rendition>
-        </tagsDecl>
+         </tagsDecl>
      </encodingDesc>
      
      <profileDesc>
@@ -114,30 +115,30 @@
         </textDesc>
      </profileDesc>
     
-
   </teiHeader>
    
    <facsimile>
       <surface xml:id="VG">
          <figure>
-            <label>Gummifabriken Värnamo</label>
-
-            <figDesc>Bildfiler till premiärnumret av Gummifabrikens personaltidning.</figDesc>
-               <graphic xml:id="VG_01_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid01_fram.jpg"></graphic>
-               <graphic xml:id="VG_01_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid01_bak.jpg"></graphic>
-               <graphic xml:id="VG_02_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid02_fram.jpg"></graphic>
-               <graphic xml:id="VG_02_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid02_bak.jpg"></graphic>
-               <graphic xml:id="VG_03_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid03_fram.jpg"></graphic>
-               <graphic xml:id="VG_03_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid03_bak.jpg"></graphic>
-               <graphic xml:id="VG_04_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid04_fram.jpg"></graphic>
-               <graphic xml:id="VG_04_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid04_bak.jpg"></graphic>
-               <graphic xml:id="VG_05_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid05_fram.jpg"></graphic>
-               <graphic xml:id="VG_05_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid05_bak.jpg"></graphic>
-         </figure>
+            <label>Bildfiler för personaltidning</label> 
+             <figDesc>Bildfiler till premiärnumret av Gummifabrikens personaltidning.</figDesc>
+               <graphic xml:id="VG_001_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_fram.jpg"></graphic>
+               <graphic xml:id="VG_001-2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_bak.jpg"></graphic>
+               <graphic xml:id="VG_002-1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_fram.jpg"></graphic>
+               <graphic xml:id="VG_002-2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_bak.jpg"></graphic>
+               <graphic xml:id="VG_003_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_fram.jpg"></graphic>
+               <graphic xml:id="VG_003_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_bak.jpg"></graphic>
+               <graphic xml:id="VG_004_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_fram.jpg"></graphic>
+               <graphic xml:id="VG_004_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_bak.jpg"></graphic>
+               <graphic xml:id="VG_005_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_fram.jpg"></graphic>
+               <graphic xml:id="VG_005_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_bak.jpg"></graphic>
+            </figure>
      </surface>
+     
       <surface xml:id="meta">
          <figure>
-            <label>Metadata för bildfiler</label>            
+            <label>Metadata för bildfiler</label> 
+            <figDesc>Metadata till bildfilerna premiärnumret av Gummifabrikens personaltidning.</figDesc>         
                <metamark xml:id="meta_01_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/master_files/VGblad_sid01_fram.tif"></metamark>
                <metamark xml:id="meta_01_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid01_bak.xml"></metamark>
                <metamark xml:id="meta_02_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid02_fram.xml"></metamark>
@@ -148,21 +149,8 @@
                <metamark xml:id="meta_04_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid04_bak.xml"></metamark>
                <metamark xml:id="meta_05_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid05_fram.xml"></metamark>
                <metamark xml:id="meta_05_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid05_bak.xml"></metamark>
-
-            <figDesc>Premiärnumret av Gummifabrikens personaltidning. 
-            </figDesc>
-            <graphic xml:id="VG_001_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_fram.jpg"></graphic>
-            <graphic xml:id="VG_001-2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_bak.jpg"></graphic>
-            <graphic xml:id="VG_002-1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_fram.jpg"></graphic>
-            <graphic xml:id="VG_002-2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_bak.jpg"></graphic>
-            <graphic xml:id="VG_003_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_fram.jpg"></graphic>
-            <graphic xml:id="VG_003_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_bak.jpg"></graphic>
-            <graphic xml:id="VG_004_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_fram.jpg"></graphic>
-            <graphic xml:id="VG_004_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_bak.jpg"></graphic>
-            <graphic xml:id="VG_005_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_fram.jpg"></graphic>
-            <graphic xml:id="VG_005_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_bak.jpg"></graphic>
-
-         </figure>
+          </figure>
+        
       </surface>
    </facsimile>
    
