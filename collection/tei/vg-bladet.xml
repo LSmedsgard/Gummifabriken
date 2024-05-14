@@ -123,9 +123,9 @@
             <label>Bildfiler för personaltidning</label> 
              <figDesc>Bildfiler till premiärnumret av Gummifabrikens personaltidning.</figDesc>
                <graphic xml:id="VG_001_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_fram.jpg"></graphic>
-               <graphic xml:id="VG_001-2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_bak.jpg"></graphic>
-               <graphic xml:id="VG_002-1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_fram.jpg"></graphic>
-               <graphic xml:id="VG_002-2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_bak.jpg"></graphic>
+               <graphic xml:id="VG_001_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_bak.jpg"></graphic>
+               <graphic xml:id="VG_002_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_fram.jpg"></graphic>
+               <graphic xml:id="VG_002_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_bak.jpg"></graphic>
                <graphic xml:id="VG_003_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_fram.jpg"></graphic>
                <graphic xml:id="VG_003_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_bak.jpg"></graphic>
                <graphic xml:id="VG_004_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_fram.jpg"></graphic>
@@ -150,7 +150,6 @@
                <metamark xml:id="meta_05_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid05_fram.xml"></metamark>
                <metamark xml:id="meta_05_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid05_bak.xml"></metamark>
           </figure>
-        
       </surface>
    </facsimile>
    
@@ -160,7 +159,7 @@
          
          <!--Fil VGblad_sid01_fram.tif -->
          
-         <pb facs="#VG_01-1" source="meta_01_1"/>
+         <pb facs="#VG_01_1" source="meta_01_1"/>
          
          <div type="page"> 
             <fw place="top-right"><settlement type="city">Värnamo</settlement>
@@ -258,103 +257,103 @@
          
          
          <div rend="left column"> 
-               <cb n="1"/> 
+            <cb n="1"/> 
+            
+            <ab rend="center"><hi rend="bold">SIF-NYTT</hi></ab>
+            
+            <p>Sedan någon vecka tillbaka pågår<lb/> 
+               löneförhandlingar för de anställda<lb/>  
+               tjänstemännen.<lb/> 
+            
+               Det treprocentiga generella löne-<lb break="no" type="sh"/> 
+               lyftet har krympt till 0,56%, enär<lb/>  
+               vi den <date>1 februari</date> fick en arbets-<lb break="no" type="sh"/> 
+               tidsförkortning med en timma per<lb/>  
+               vecka.<lb/> 
+            
+               De nya avtalen gäller från den <date>1<lb/>  
+               februari</date>, respektive <date>1 april</date>.<lb/>  
+            </p>
+            
+            
+            <ab rend="center"><hi rend="bold">SALF-NYTT</hi></ab>
+            
+            <p>Även för Salf-tjänstemännen pågår<lb/> 
+               löneförhandlingar.<lb/>
+            
+               Av de generella tre procenten,<lb/> 
+               kostade arbetstidsförkortningen<lb/> 
+               1,9 %. <lb/>
+            
+               Samma datum för de nya avtalen<lb/> 
+               gäller även här, alltså från den<lb/> 
+               <date>1 februari</date>, respektive <date>1 april</date>.<lb/> 
+            </p>
+            
+            <ab rend="center"><hi rend="bold">SIF-STEPENDIAT</hi></ab>
+            
+            <p>Ett stipendium på 1 700 kronor har<lb/> 
+               tilldelats kontrollchefen på sektion<lb/> 
+               industrigummi <name>R Tuscher</name>. Stipendiet<lb/> 
+               skall användas för studier i <country>England</country>.<lb/>
                
-               <ab rend="center"><hi rend="bold">SIF-NYTT</hi></ab>
+               <name>Tuscher</name> avreser i slutet av <date>mars</date><lb/> 
+               månad, och beräknas vara borta i<lb/> 
+               tre veckor.<lb/>
                
-               <p>Sedan någon vecka tillbaka pågår<lb/> 
-                  löneförhandlingar för de anställda<lb/>  
-                  tjänstemännen.<lb/> 
-               
-                  Det treprocentiga generella löne-<lb break="no" type="sh"/> 
-                  lyftet har krympt till 0,56%, enär<lb/>  
-                  vi den <date>1 februari</date> fick en arbets-<lb break="no" type="sh"/> 
-                  tidsförkortning med en timma per<lb/>  
-                  vecka.<lb/> 
-               
-                  De nya avtalen gäller från den <date>1<lb/>  
-                  februari</date>, respektive <date>1 april</date>.<lb/>  
-               </p>
-               
-               
-               <ab rend="center"><hi rend="bold">SALF-NYTT</hi></ab>
-               
-               <p>Även för Salf-tjänstemännen pågår<lb/> 
-                  löneförhandlingar.<lb/>
-               
-                  Av de generella tre procenten,<lb/> 
-                  kostade arbetstidsförkortningen<lb/> 
-                  1,9 %. <lb/>
-               
-                  Samma datum för de nya avtalen<lb/> 
-                  gäller även här, alltså från den<lb/> 
-                  <date>1 februari</date>, respektive <date>1 april</date>.<lb/> 
-               </p>
-               
-               <ab rend="center"><hi rend="bold">SIF-STEPENDIAT</hi></ab>
-               
-               <p>Ett stipendium på 1 700 kronor har<lb/> 
-                  tilldelats kontrollchefen på sektion<lb/> 
-                  industrigummi <name>R Tuscher</name>. Stipendiet<lb/> 
-                  skall användas för studier i <country>England</country>.<lb/>
-                  
-                  <name>Tuscher</name> avreser i slutet av <date>mars</date><lb/> 
-                  månad, och beräknas vara borta i<lb/> 
-                  tre veckor.<lb/>
-                  
-                  Vi gratulerar!<lb/>
-               </p>
-                </div>
-         
-               <div rend="right column">
-                  <cb n="2"/>
-                  
-                  <ab rend="center"><hi rend="bold">TÄVLINGAR</hi></ab>
-                  
-                  <p>Även i år kommer ett VG-rally att<lb/> 
-                     anordnas. Tidpunkten för detta<lb/> 
-                     återkommer vi till.<lb/>
-                     
-                     Nya tips för rallyt lämnas till<lb/> 
-                     korpföreningen på företaget.<lb/>
-                     
-                     O B S !<lb/>
-                     
-                     Absolut sista rallyt med vänster-<lb break="no" type="sh"/>
-                     körnin<hi rend="handwritten">en smiley</hi>!<lb/> 
-                     </p>
-                  
-                  <ab rend="center"><hi rend="bold">ATT HA RYGGEN FRI</hi></ab>
-                  
-                  <p>Har Du någonsin handlar efter pa-<lb break="no" type="sh"/>
-                     rollen “Jag gör på det viset, så<lb/> 
-                     har Jag ryggen fri”.<lb/>
-                     
-                     Den som har en sådan inställning<lb/> 
-                     till sin arbetsuppgift borde sna-<lb break="no" type="sh"/>
-                     rast avskiljas från sin syssla.<lb/> 
-                     Hans åtgärder är inte dirigerade<lb/> 
-                     av en ärlig strävan att göra sitt<lb/> 
-                     bästa för företaget. För honom<lb/> 
-                     är det väsentligaste att klara sitt<lb/> 
-                     eget skinn.<lb/>
-                     
-                     Men hur många gånger har vi inte<lb/> 
-                     haft en sådan tanke i huvudet.<lb/> 
-                     Vi bara frågar?<lb/> 
-                  </p>
-                  
-                  <figure rend="down">
-                     <figDesc>Syntolkning ANNONS: En bild av en kvinna i profil från vänster 
-                        och en kvinna i profil från höger. Båda i korta, tighta kläder. 
-                        Kvinnan till vänster säger <hi rend="handwritten">HERRE GUD VAD 
-                        KILLARNA PÅ FABRIKEN TRYCKER BRA; TYCKER DU INTE DET?</hi> och 
-                        kvinnan till höger svarar <hi rend="handwritten">JODÅ! MEN PÅ FÄLTHS 
-                        TRYCKER DE BÄTTRE HAR JAG HÖRT.</hi>.
-                     </figDesc>
-                  </figure><!-- Skapa en ram runt texten -->
+               Vi gratulerar!<lb/>
+            </p>
          </div>
          
+         <div rend="right column">
+            <cb n="2"/>
+            
+            <ab rend="center"><hi rend="bold">TÄVLINGAR</hi></ab>
+            
+            <p>Även i år kommer ett VG-rally att<lb/> 
+               anordnas. Tidpunkten för detta<lb/> 
+               återkommer vi till.<lb/>
+               
+               Nya tips för rallyt lämnas till<lb/> 
+               korpföreningen på företaget.<lb/>
+               
+               O B S !<lb/>
+               
+               Absolut sista rallyt med vänster-<lb break="no" type="sh"/>
+               körnin<hi rend="handwritten">en smiley</hi>!<lb/> 
+               </p>
+            
+            <ab rend="center"><hi rend="bold">ATT HA RYGGEN FRI</hi></ab>
+            
+            <p>Har Du någonsin handlar efter pa-<lb break="no" type="sh"/>
+               rollen “Jag gör på det viset, så<lb/> 
+               har Jag ryggen fri”.<lb/>
+               
+               Den som har en sådan inställning<lb/> 
+               till sin arbetsuppgift borde sna-<lb break="no" type="sh"/>
+               rast avskiljas från sin syssla.<lb/> 
+               Hans åtgärder är inte dirigerade<lb/> 
+               av en ärlig strävan att göra sitt<lb/> 
+               bästa för företaget. För honom<lb/> 
+               är det väsentligaste att klara sitt<lb/> 
+               eget skinn.<lb/>
+               
+               Men hur många gånger har vi inte<lb/> 
+               haft en sådan tanke i huvudet.<lb/> 
+               Vi bara frågar?<lb/> 
+            </p>
+            
+            <figure rend="down">
+               <figDesc>Syntolkning ANNONS: En bild av en kvinna i profil från vänster 
+                  och en kvinna i profil från höger. Båda i korta, tighta kläder. 
+                  Kvinnan till vänster säger <hi rend="handwritten">HERRE GUD VAD 
+                  KILLARNA PÅ FABRIKEN TRYCKER BRA; TYCKER DU INTE DET?</hi> och 
+                  kvinnan till höger svarar <hi rend="handwritten">JODÅ! MEN PÅ FÄLTHS 
+                  TRYCKER DE BÄTTRE HAR JAG HÖRT.</hi>.
+               </figDesc>
+            </figure><!-- Skapa en ram runt texten -->
+         </div>
+      
          
          <!--Fil VGblad_sid03_fram.tif -->
          
@@ -362,7 +361,7 @@
         
          <div type="page"> 
             <pb n="II"/>
-            </div>
+         </div>
          
          <div rend="left column">
             <cb n="1"/>
@@ -429,7 +428,7 @@
                   </figDesc> <!-- observera otydlig text -->
                </figure><!-- Skapa en ram runt texten -->
             
-            <p><name>Hjördis Carlsson</name><lb/>
+               <p><name>Hjördis Carlsson</name><lb/>
                <hi rend="underlined">Faktureringen </hi><lb/>
                   Jag och min väninna flyger till<lb/> 
                   <country>Spanien</country> eller till <country>Italien</country>. Vi<lb/> 
@@ -439,7 +438,7 @@
                   hoppas åtminstone det!<lb/>
                   
                   (De får säkert en trevlig semester.)<lb/>  
-                  </p>
+               </p>
             
             <figure rend="center">
                <figDesc>Syntolkning: En bild på ett flygplan och ovanför det finns 
@@ -457,7 +456,7 @@
             <pb n="III"/> 
          </div>
          
-        <div rend="left column">
+         <div rend="left column">
            <cb n="1"/>
            
            <p><name>Rolf Adolfsson</name><lb/>
@@ -473,11 +472,11 @@
               <region>Öland</region>.<lb/>
            </p>
             
-              <figure rend="center">
-                 <figDesc>Syntolkning: Bild på en timmerstuga omgiven 
+            <figure rend="center">
+               <figDesc>Syntolkning: Bild på en timmerstuga omgiven 
                     av två stora björkar och ett utedass i bakgrunden.
-                 </figDesc>
-              </figure><!-- Skapa en ram runt texten -->
+               </figDesc>
+            </figure><!-- Skapa en ram runt texten -->
            
            <p><name>Ulla-Britt Johansson</name>
               <hi rend="underlined">Skrivcentralen</hi><lb/> 
@@ -510,12 +509,12 @@
              (Undras om han inte ville åka ensam.) <lb/>
           </p>
            
-          <figure rend="center">
+            <figure rend="center">
              <figDesc> Syntolkning: Bild på en person som sitter i en 
              cabriolet och ovan finns en stor skylt där det står 
                 <settlement>HAMBURG</settlement> 13.
              </figDesc>
-          </figure><!-- Skapa en ram runt texten -->
+            </figure><!-- Skapa en ram runt texten -->
             
             <p><name>Siri Jonasson</name><lb/>
                <hi rend="underlined">Ekonomiavdelningen</hi><lb/>
