@@ -3,8 +3,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   
-  <teiHeader>
+
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>VEGE-BLADET vid Gummifabriken i Värnamo</title>
@@ -21,7 +21,7 @@
                <name>Emeli Hellström</name>
             </respStmt>
          </titleStmt>
-         
+
          <publicationStmt>
             <authority>Nour Abbas</authority>
             <authority>Evelina Fant</authority>
@@ -36,23 +36,24 @@
             </address>
             <date when="2024-05-24" calendar="Gregorian">24 May 2024</date>
             <availability status="free">
-               <licence>Publiceras via GitHub online under <ref target="https://creativecommons.org/licenses/by/4.0/">
-                  Creative Commons Attribution 4.0 International</ref></licence>
+               <licence>Publiceras via GitHub online under <ref
+                     target="https://creativecommons.org/licenses/by/4.0/">
+                     Creative Commons Attribution 4.0 International</ref></licence>
                <p>I gott samarbete med Gummifabriken i Värnamo, Sverige.</p>
             </availability>
          </publicationStmt>
-         
+
          <notesStmt>
-            <note>Examination för kursen Digitalisering för bevarande och tillgänglighet 
+            <note>Examination för kursen Digitalisering för bevarande och tillgänglighet
                vid Högskolan i Borås</note>
             <note>Bildfångst gjort med scanner Epson Perfection V600 Photo, Model: J252A</note>
             <note>Transkribering är gjord manuellt</note>
             <note>Transkription gjord i XML med oXygen editor</note>
          </notesStmt>
-            
-         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">      
-            <biblStruct>                 
-               <monogr>                
+
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <biblStruct>
+               <monogr>
                   <title type="main">VEGE-bladet</title>
                   <title type="subordinate">PREMIÄRNUMMER</title>
                   <author> Ribbenmo, S.</author>
@@ -61,611 +62,532 @@
                      <publisher>Gummifabriken</publisher>
                      <date when="1967-03">Mars 1967</date>
                   </imprint>
-                  <extent>5s.</extent>         
+                  <extent>5s.</extent>
                </monogr>
                <note>En personaltidning tryckt med blåstencil/spritstencil på papper
                   med storleken 21 cm x 29,5 cm</note>
                <relatedItem>
-                 <bibl>Övriga nummer av VEGE-bladet senare kallat VG-bladet</bibl>
+                  <bibl>Övriga nummer av VEGE-bladet senare kallat VG-bladet</bibl>
                </relatedItem>
-            </biblStruct> 
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
-     
-     <encodingDesc>
+
+      <encodingDesc>
          <editorialDecl>
-           <p>Radbrytningar, styckebrytningar och indrag har bevarats i 
-              transkriptionen. Layouten på sidan har bevarats när det är möjligt.</p> 
-              <hyphenation> 
-                  <p>Förkortningar och stavningar har bibehållits i transkriptionerna.</p>
-              </hyphenation>
-              <correction>
-                  <p>Ord eller fraser som anses otydliga har noterats som <unclear></unclear>
-                  otydliga eller som rend="unclear".</p>
-              </correction>
+            <p>Radbrytningar, styckebrytningar och indrag har bevarats i
+               transkriptionen. Layouten på sidan har bevarats när det är möjligt.</p>
+            <hyphenation>
+               <p>Förkortningar och stavningar har bibehållits i transkriptionerna.</p>
+            </hyphenation>
+            <correction>
+               <p>Ord eller fraser som anses otydliga har noterats som <unclear></unclear> otydliga
+                  eller som rend="unclear".</p>
+            </correction>
          </editorialDecl>
-        
+
          <tagsDecl>
-           <rendition xml:id="bold"
-              scheme="css">font-style: bold;
-           </rendition> 
-           <rendition xml:id="underlined" 
-              scheme="css">font-style: underlined; 
-           </rendition>
-           <rendition xml:id="handwritten" 
-              scheme="css">font-style: handwritten;
-           </rendition>
+            <rendition xml:id="bold"
+               scheme="css">font-style: bold;
+            </rendition>
+            <rendition xml:id="underlined"
+               scheme="css">font-style: underlined;
+            </rendition>
+            <rendition xml:id="handwritten"
+               scheme="css">font-style: handwritten;
+            </rendition>
          </tagsDecl>
-     </encodingDesc>
-     
-     <profileDesc>
-        <langUsage>
-           <language ident="sv">Swedish</language> 
-        </langUsage>
-        <textDesc n="personaltidning från Gummifarbriken i Värnamo">
-           <channel mode="w">Tryckt med blåstencil</channel>
-           <constitution type="single"/>
-           <derivation type="original">Varje kopia räknas som orignial</derivation>
-           <domain type="personaltidning"/>
-           <factuality type="inapplicable"/>
-           <interaction type="partial" passive="group"/>
-           <preparedness type="formulaic"/>
-           <purpose type="inform" degree="medium"/>
-           <purpose type="entertain" degree="medium"/>
-        </textDesc>
-     </profileDesc>
-    
-  </teiHeader>
-   
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="sv">Swedish</language>
+         </langUsage>
+         <textDesc n="personaltidning från Gummifarbriken i Värnamo">
+            <channel mode="w">Tryckt med blåstencil</channel>
+            <constitution type="single" />
+            <derivation type="original">Varje kopia räknas som orignial</derivation>
+            <domain type="personaltidning" />
+            <factuality type="inapplicable" />
+            <interaction type="partial" passive="group" />
+            <preparedness type="formulaic" />
+            <purpose type="inform" degree="medium" />
+            <purpose type="entertain" degree="medium" />
+         </textDesc>
+      </profileDesc>
+
+   </teiHeader>
+
    <facsimile>
       <surface xml:id="VG">
          <figure>
-            <label>Bildfiler för personaltidning</label> 
-             <figDesc>Bildfiler till premiärnumret av Gummifabrikens personaltidning.</figDesc>
-               <graphic xml:id="VG_001_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_fram.jpg"></graphic>
-               <graphic xml:id="VG_001_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_bak.jpg"></graphic>
-               <graphic xml:id="VG_002_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_fram.jpg"></graphic>
-               <graphic xml:id="VG_002_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_bak.jpg"></graphic>
-               <graphic xml:id="VG_003_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_fram.jpg"></graphic>
-               <graphic xml:id="VG_003_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_bak.jpg"></graphic>
-               <graphic xml:id="VG_004_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_fram.jpg"></graphic>
-               <graphic xml:id="VG_004_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_bak.jpg"></graphic>
-               <graphic xml:id="VG_005_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_fram.jpg"></graphic>
-               <graphic xml:id="VG_005_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_bak.jpg"></graphic>
-            </figure>
-     </surface>
-     
+            <label>Bildfiler för personaltidning</label>
+            <figDesc>Bildfiler till premiärnumret av Gummifabrikens personaltidning.</figDesc>
+            <graphic xml:id="VG_001_1"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_fram.jpg"></graphic>
+            <graphic xml:id="VG_001_2"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_bak.jpg"></graphic>
+            <graphic xml:id="VG_002_1"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_fram.jpg"></graphic>
+            <graphic xml:id="VG_002_2"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_bak.jpg"></graphic>
+            <graphic xml:id="VG_003_1"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_fram.jpg"></graphic>
+            <graphic xml:id="VG_003_2"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_bak.jpg"></graphic>
+            <graphic xml:id="VG_004_1"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_fram.jpg"></graphic>
+            <graphic xml:id="VG_004_2"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_bak.jpg"></graphic>
+            <graphic xml:id="VG_005_1"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_fram.jpg"></graphic>
+            <graphic xml:id="VG_005_2"
+               url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_bak.jpg"></graphic>
+         </figure>
+      </surface>
+
       <surface xml:id="meta">
          <figure>
-            <label>Metadata för bildfiler</label> 
-            <figDesc>Metadata till bildfilerna premiärnumret av Gummifabrikens personaltidning.</figDesc>         
-               <metamark xml:id="meta_01_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/master_files/VGblad_sid01_fram.tif"></metamark>
-               <metamark xml:id="meta_01_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid01_bak.xml"></metamark>
-               <metamark xml:id="meta_02_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid02_fram.xml"></metamark>
-               <metamark xml:id="meta_02_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid02_bak.xml"></metamark>
-               <metamark xml:id="meta_03_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid03_fram.xml"></metamark>
-               <metamark xml:id="meta_03_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid03_bak.xml"></metamark>
-               <metamark xml:id="meta_04_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid04_fram.xml"></metamark>
-               <metamark xml:id="meta_04_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid04_bak.xml"></metamark>
-               <metamark xml:id="meta_05_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid05_fram.xml"></metamark>
-               <metamark xml:id="meta_05_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid05_bak.xml"></metamark>
-          </figure>
+            <label>Metadata för bildfiler</label>
+            <figDesc>Metadata till bildfilerna premiärnumret av Gummifabrikens personaltidning.</figDesc>
+            <metamark xml:id="meta_01_1"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid01_fram.xml"></metamark>
+            <metamark xml:id="meta_01_2"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid01_bak.xml"></metamark>
+            <metamark xml:id="meta_02_1"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid02_fram.xml"></metamark>
+            <metamark xml:id="meta_02_2"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid02_bak.xml"></metamark>
+            <metamark xml:id="meta_03_1"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid03_fram.xml"></metamark>
+            <metamark xml:id="meta_03_2"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid03_bak.xml"></metamark>
+            <metamark xml:id="meta_04_1"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid04_fram.xml"></metamark>
+            <metamark xml:id="meta_04_2"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid04_bak.xml"></metamark>
+            <metamark xml:id="meta_05_1"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid05_fram.xml"></metamark>
+            <metamark xml:id="meta_05_2"
+               source="https://raw.githubusercontent.com/LSmedsgard/Gummifabriken/main/collection/metadata/metadata_sid05_bak.xml"></metamark>
+         </figure>
       </surface>
    </facsimile>
-   
-  <text>
+
+   <text>
       <body>
          <!-- varje div innehåller en separat enhet av text-->
-         
-         <!--Fil VGblad_sid01_fram.tif -->
-         
-         <pb facs="#VG_01_1" source="meta_01_1"/>
-         
-         <div type="page"> 
+
+         <!-- Fil VGblad_sid01_fram.tif -->
+
+         <pb facs="#VG_01_1" source="meta_01_1" />
+
+         <div type="page">
             <fw place="top-right"><settlement type="city">Värnamo</settlement>
-               <date when="1967" calendar="Gregorian">
-               Mars 1967</date>. Årgång 1 nr 1.</fw>
-            <fw type="handwritten"><hi rend="bold">PREMIÄRNUMMER.</hi></fw>
-            <head type="handwritten"><hi rend="bold">VEGE-bladet.</hi></head> 
+               <date when="1967"
+                  calendar="Gregorian">
+                  Mars 1967</date>. Årgång 1 nr 1.</fw>
+            <fw type="handwritten">
+               <hi rend="bold">PREMIÄRNUMMER.</hi>
+            </fw>
+            <head type="handwritten">
+               <hi rend="bold">VEGE-bladet.</hi>
+            </head>
             <ab rend="right">Skriven av <name role="author" type="person">S Ribbenmo</name>.</ab>
          </div>
-           
-         <div rend="left column"> 
-            <cb n="1"/> 
-            
-            <p>Ett företag av <orgName>VG</orgName>:s storlek bör<lb/> 
-               väl ha en <objectType>personaltidning</objectType>. Den<lb/> 
-               uppfattningen delas av många och<lb/> 
-               önskemålet har funnits sedan lång<lb/> 
-               tid tillbaka.<lb/>
-               
-               Att göra denna <objectType>personaltidning</objectType><lb/> 
-               har varit en mycket roande upp-<lb break="no" type="sh"/> <!-- "soft hyphen". -->
-               gift, men att göra den så, att<lb/> 
-               texten faller alla på läppen, är<lb/> 
-               som Ni förstår omöjligt.<lb/>  
-               
-               Innehållet är blandat, men för-<lb break="no" type="sh"/> 
-               hoppningen är att den skall vara<lb/> 
-               så roande som möjligt.<lb/> 
-               
-               Klagomål kan ju komma, och därför<lb/> 
-               eliminerar vi eventuella efterräk-<lb break="no" type="sh"/> 
-               ningar, genom att be de icke nöjda<lb/> 
-               om ursäkt,<lb/> 
-               
-               så dé så.<lb/> 
-               
-               Ni har kanske egna idéer om hur<lb/>  
-               <objectType>tidningen</objectType> skall se ut, och vi<lb/>  
-               poängterar, att vi gärna tar emot<lb/>  
-               tips om detta.<lb/>   
-               
-               Vi är också tacksamma för bidrag,<lb/>  
-               lämpliga att föras in i <objectType>tidningen</objectType>.<lb/> 
-               </p>
-            
+
+         <div rend="left column">
+            <cb n="1" />
+
+            <p>Ett företag av <orgName>VG</orgName>:s storlek bör<lb /> väl ha en <objectType>
+               personaltidning</objectType>. Den<lb /> uppfattningen delas av många och<lb />
+               önskemålet har funnits sedan lång<lb /> tid tillbaka.<lb /> Att göra denna <objectType>
+               personaltidning</objectType><lb /> har varit en mycket roande upp-<lb break="no"
+                  type="sh" /> <!-- "soft hyphen". --> gift, men att göra den så, att<lb /> texten faller alla på läppen, är<lb />
+               som Ni förstår omöjligt.<lb /> Innehållet är blandat, men för-<lb break="no"
+                  type="sh" /> hoppningen är att den skall vara<lb /> så roande som möjligt.<lb />
+               Klagomål kan ju komma, och därför<lb /> eliminerar vi eventuella efterräk-<lb
+                  break="no" type="sh" /> ningar, genom att be de icke nöjda<lb /> om ursäkt,<lb />
+               så dé så.<lb /> Ni har kanske egna idéer om hur<lb />
+  
+               <objectType>tidningen</objectType>
+               skall se ut, och vi<lb /> poängterar, att vi gärna tar emot<lb /> tips om detta.<lb />
+               Vi är också tacksamma för bidrag,<lb /> lämpliga att föras in i <objectType>tidningen</objectType>
+               .<lb />
+
+            </p>
+
          </div>
-         
+
          <div rend="right column">
-         <cb n="2"/>
-            
-            <ab rend="center">Till företagsledningen!</ab><lb/>
-            
-               <p>Uppmaningen att svenska folket skall<lb/>
-                  motionera och idrotta mera, är väl<lb/> 
-                  något som snart blivit en slogan.<lb/>
-               
-                  Det säjs ju, att man mår bättre, och<lb/> 
-                  att prestandan höjs avsevärt, om man<lb/> 
-                  då och då ägnar sej åt någon form av<lb/> 
-                  idrott.<lb/>  
-               
-                  Företaget har här en möjlighet att i<lb/> 
-                  en sportgren få personalen att motio-<lb break="no" type="sh"/>
-                  nera mera, och därmed avses tennis.<lb/>
-               
-                  Vid <orgName>Norrgeårdsfabriken</orgName> förfogar före-<lb break="no" type="sh"/>
-                  taget över ett ypperligt område, som<lb/> 
-                  nu är outnyttjat. Att iordningställa<lb/> 
-                  en tennisplan där vore idealiskt.<lb/>  
-               
-                  Likaså har vi ett mycket trivsamt<lb/> 
-                  och trevligt lunchrum som utnyttjas<lb/> 
-                  mycket lite. Kunde man inte tänka<lb/> 
-                  sej att där få sätta upp några bord-<lb break="no" type="sh"/>
-                  tennisbord, samt att alla schack-<lb break="no" type="sh"/> 
-                  och bridgespelare inom företaget<lb/> 
-                  finge hålla till där.<lb/>
-               
-                  Vi vädjar till företagsledningen att<lb/> 
-                  ta upp detta till diskussion.<lb/>
-               </p>
-        
-         <pb/>
-         <!-- pb markerar slutet på sidan -->
+            <cb n="2" />
+
+            <ab rend="center">Till företagsledningen!</ab>
+            <lb />
+
+
+            <p>Uppmaningen att svenska folket skall<lb /> motionera och idrotta mera, är väl<lb />
+               något som snart blivit en slogan.<lb /> Det säjs ju, att man mår bättre, och<lb />
+               att prestandan höjs avsevärt, om man<lb /> då och då ägnar sej åt någon form av<lb />
+               idrott.<lb /> Företaget har här en möjlighet att i<lb /> en sportgren få personalen
+               att motio-<lb break="no" type="sh" /> nera mera, och därmed avses tennis.<lb /> Vid <orgName>
+               Norrgeårdsfabriken</orgName> förfogar före-<lb break="no" type="sh" /> taget över ett
+               ypperligt område, som<lb /> nu är outnyttjat. Att iordningställa<lb /> en tennisplan
+               där vore idealiskt.<lb /> Likaså har vi ett mycket trivsamt<lb /> och trevligt
+               lunchrum som utnyttjas<lb /> mycket lite. Kunde man inte tänka<lb /> sej att där få
+               sätta upp några bord-<lb break="no" type="sh" /> tennisbord, samt att alla schack-<lb
+                  break="no" type="sh" /> och bridgespelare inom företaget<lb /> finge hålla till
+               där.<lb /> Vi vädjar till företagsledningen att<lb /> ta upp detta till diskussion.<lb />
+
+            </p>
+
+            <pb />
+            <!-- pb markerar slutet på sidan -->
          </div>
-         
-         
+
+
          <!-- Fil VGblad_sid02_fram.tif -->
-         
-         <pb facs="#VG_02_1" source="meta_02_1"/>
-         
-         <div type="page"> 
-            <pb n="I"/>
-         </div> 
-         
-         
-         <div rend="left column"> 
-            <cb n="1"/> 
-            
-            <ab rend="center"><hi rend="bold">SIF-NYTT</hi></ab>
-            
-            <p>Sedan någon vecka tillbaka pågår<lb/> 
-               löneförhandlingar för de anställda<lb/>  
-               tjänstemännen.<lb/> 
-            
-               Det treprocentiga generella löne-<lb break="no" type="sh"/> 
-               lyftet har krympt till 0,56%, enär<lb/>  
-               vi den <date>1 februari</date> fick en arbets-<lb break="no" type="sh"/> 
-               tidsförkortning med en timma per<lb/>  
-               vecka.<lb/> 
-            
-               De nya avtalen gäller från den <date>1<lb/>  
-               februari</date>, respektive <date>1 april</date>.<lb/>  
+
+         <pb facs="#VG_02_1" source="meta_02_1" />
+
+         <div type="page">
+            <pb n="I" />
+         </div>
+
+
+         <div rend="left column">
+            <cb n="1" />
+
+            <ab rend="center">
+               <hi rend="bold">SIF-NYTT</hi>
+            </ab>
+
+            <p>Sedan någon vecka tillbaka pågår<lb /> löneförhandlingar för de anställda<lb />
+               tjänstemännen.<lb /> Det treprocentiga generella löne-<lb break="no" type="sh" />
+               lyftet har krympt till 0,56%, enär<lb /> vi den <date>1 februari</date> fick en
+               arbets-<lb break="no" type="sh" /> tidsförkortning med en timma per<lb /> vecka.<lb />
+               De nya avtalen gäller från den <date>1<lb /> februari</date>, respektive <date>1 
+               april</date>.<lb />
+
             </p>
-            
-            
-            <ab rend="center"><hi rend="bold">SALF-NYTT</hi></ab>
-            
-            <p>Även för Salf-tjänstemännen pågår<lb/> 
-               löneförhandlingar.<lb/>
-            
-               Av de generella tre procenten,<lb/> 
-               kostade arbetstidsförkortningen<lb/> 
-               1,9 %. <lb/>
-            
-               Samma datum för de nya avtalen<lb/> 
-               gäller även här, alltså från den<lb/> 
-               <date>1 februari</date>, respektive <date>1 april</date>.<lb/> 
+
+
+            <ab rend="center">
+               <hi rend="bold">SALF-NYTT</hi>
+            </ab>
+
+            <p>Även för Salf-tjänstemännen pågår<lb /> löneförhandlingar.<lb /> Av de generella tre
+               procenten,<lb /> kostade arbetstidsförkortningen<lb /> 1,9 %. <lb /> Samma datum för
+               de nya avtalen<lb /> gäller även här, alltså från den<lb />
+ 
+               <date>1 februari</date>,
+               respektive <date>1 april</date>.<lb />
+
             </p>
-            
-            <ab rend="center"><hi rend="bold">SIF-STEPENDIAT</hi></ab>
-            
-            <p>Ett stipendium på 1 700 kronor har<lb/> 
-               tilldelats kontrollchefen på sektion<lb/> 
-               industrigummi <name>R Tuscher</name>. Stipendiet<lb/> 
-               skall användas för studier i <country>England</country>.<lb/>
+
+            <ab rend="center">
+               <hi rend="bold">SIF-STEPENDIAT</hi>
+            </ab>
+
+            <p>Ett stipendium på 1 700 kronor har<lb /> tilldelats kontrollchefen på sektion<lb />
+               industrigummi <name>R Tuscher</name>. Stipendiet<lb /> skall användas för studier i <country>
+               England</country>.<lb />
+
                
-               <name>Tuscher</name> avreser i slutet av <date>mars</date><lb/> 
-               månad, och beräknas vara borta i<lb/> 
-               tre veckor.<lb/>
-               
-               Vi gratulerar!<lb/>
+               <name>Tuscher</name> avreser i slutet av <date>mars</date><lb />
+               månad, och beräknas vara borta i<lb /> tre veckor.<lb /> Vi gratulerar!<lb />
+
             </p>
          </div>
-         
+
          <div rend="right column">
-            <cb n="2"/>
-            
-            <ab rend="center"><hi rend="bold">TÄVLINGAR</hi></ab>
-            
-            <p>Även i år kommer ett VG-rally att<lb/> 
-               anordnas. Tidpunkten för detta<lb/> 
-               återkommer vi till.<lb/>
-               
-               Nya tips för rallyt lämnas till<lb/> 
-               korpföreningen på företaget.<lb/>
-               
-               O B S !<lb/>
-               
-               Absolut sista rallyt med vänster-<lb break="no" type="sh"/>
-               körnin<hi rend="handwritten">en smiley</hi>!<lb/> 
-               </p>
-            
-            <ab rend="center"><hi rend="bold">ATT HA RYGGEN FRI</hi></ab>
-            
-            <p>Har Du någonsin handlar efter pa-<lb break="no" type="sh"/>
-               rollen “Jag gör på det viset, så<lb/> 
-               har Jag ryggen fri”.<lb/>
-               
-               Den som har en sådan inställning<lb/> 
-               till sin arbetsuppgift borde sna-<lb break="no" type="sh"/>
-               rast avskiljas från sin syssla.<lb/> 
-               Hans åtgärder är inte dirigerade<lb/> 
-               av en ärlig strävan att göra sitt<lb/> 
-               bästa för företaget. För honom<lb/> 
-               är det väsentligaste att klara sitt<lb/> 
-               eget skinn.<lb/>
-               
-               Men hur många gånger har vi inte<lb/> 
-               haft en sådan tanke i huvudet.<lb/> 
-               Vi bara frågar?<lb/> 
+            <cb n="2" />
+
+            <ab rend="center">
+               <hi rend="bold">TÄVLINGAR</hi>
+            </ab>
+
+            <p>Även i år kommer ett VG-rally att<lb /> anordnas. Tidpunkten för detta<lb />
+               återkommer vi till.<lb /> Nya tips för rallyt lämnas till<lb /> korpföreningen på
+               företaget.<lb /> O B S !<lb /> Absolut sista rallyt med vänster-<lb break="no"
+                  type="sh" /> körnin<hi rend="handwritten">en smiley</hi>!<lb />
+
             </p>
-            
+
+            <ab rend="center">
+               <hi rend="bold">ATT HA RYGGEN FRI</hi>
+            </ab>
+
+            <p>Har Du någonsin handlar efter pa-<lb break="no" type="sh" /> rollen “Jag gör på det
+               viset, så<lb /> har Jag ryggen fri”.<lb /> Den som har en sådan inställning<lb />
+               till sin arbetsuppgift borde sna-<lb break="no" type="sh" /> rast avskiljas från sin
+               syssla.<lb /> Hans åtgärder är inte dirigerade<lb /> av en ärlig strävan att göra
+               sitt<lb /> bästa för företaget. För honom<lb /> är det väsentligaste att klara sitt<lb />
+               eget skinn.<lb /> Men hur många gånger har vi inte<lb /> haft en sådan tanke i
+               huvudet.<lb /> Vi bara frågar?<lb />
+
+            </p>
+
             <figure rend="down">
-               <figDesc>Syntolkning ANNONS: En bild av en kvinna i profil från vänster 
-                  och en kvinna i profil från höger. Båda i korta, tighta kläder. 
-                  Kvinnan till vänster säger <hi rend="handwritten">HERRE GUD VAD 
-                  KILLARNA PÅ FABRIKEN TRYCKER BRA; TYCKER DU INTE DET?</hi> och 
-                  kvinnan till höger svarar <hi rend="handwritten">JODÅ! MEN PÅ FÄLTHS 
-                  TRYCKER DE BÄTTRE HAR JAG HÖRT.</hi>.
-               </figDesc>
-            </figure><!-- Skapa en ram runt texten -->
+               <figDesc>Syntolkning ANNONS: En bild av en kvinna i profil från vänster och en kvinna
+                  i profil från höger. Båda i korta, tighta kläder. Kvinnan till vänster säger <hi
+                     rend="handwritten">HERRE GUD VAD
+                     KILLARNA PÅ FABRIKEN TRYCKER BRA; TYCKER DU INTE DET?</hi> och kvinnan till
+                  höger svarar <hi rend="handwritten">JODÅ! MEN PÅ FÄLTHS
+                     TRYCKER DE BÄTTRE HAR JAG HÖRT.</hi>. </figDesc>
+            </figure>
+            <!-- Skapa en ram runt texten -->
          </div>
-      
-         
-         <!--Fil VGblad_sid03_fram.tif -->
-         
-         <pb facs="#VG_03_1" source="meta_03_1" />
-        
-         <div type="page"> 
-            <pb n="II"/>
-         </div>
-         
-         <div rend="left column">
-            <cb n="1"/>
-            <ab rend="center"><hi rend="bold">VART ÅKER VI PÅ SEMESTERN?</hi></ab>
-            
-            <p>Vid en rundfråga hos de anställda,<lb/>  
-               vart de åker på semester, gav de<lb/>  
-               mest skiftande svar.<lb/> 
-               
-               Utlandsresorna dominerar, men det<lb/>  
-               finns faktiskt en och annan som<lb/>  
-               stannar inom landets gränser.<lb/> 
-               
-               Så här svarade de tillfrågade:<lb/> 
-               
-               <name>Gustaf Palmborg</name><lb/>
-               <hi rend="underlined">Verkstadskontoret</hi><lb/> 
-               Jag och min familj kommer att göra<lb/>  
-               en resa till nordligaste <country>Sverige</country>,<lb/>  
-               där fotvandring i <geogFeat>fjällen</geogFeat> står på<lb/>  
-               <objectType>programmet</objectType>. Vi hoppas även hinna<lb/>  
-               med en avstickare in i <country>Norge</country>.<lb/> 
-               
-               (<name>Gustav!</name> “Bättre en fjälla i veckan, än en vecka i fjällen”.)    
-                </p>
 
-               <figure rend="center">
-                  <figDesc>Syntolkning: Bild på en påpälsad man med ryggsäck som 
-                     bestiger ett snöigt berg. Han pustar och ordet <hi rend="handwritten">
-                     Pust</hi> står skrivet.
-                  </figDesc>
-               </figure><!-- Skapa en ram runt texten -->
-            
-            <p><name>Gun-Britt Norrman</name><lb/>
-               <hi rend="underlined">Telefonväxeln </hi><lb/>
-               Inget är planerat ännu, men jag<lb/> 
-               funderar på en bilsemester inom<lb/> 
-               <country>Sverige</country>. Förra året hyrde jag en<lb/> 
-               stuga på <region>Gotland</region>, och det är ju<lb/> 
-               trevligt med omväxling.<lb/>  
+
+         <!--Fil VGblad_sid03_fram.tif -->
+
+         <pb facs="#VG_03_1" source="meta_03_1" />
+
+         <div type="page">
+            <pb n="II" />
+         </div>
+
+         <div rend="left column">
+            <cb n="1" />
+            <ab rend="center">
+               <hi rend="bold">VART ÅKER VI PÅ SEMESTERN?</hi>
+            </ab>
+
+            <p>Vid en rundfråga hos de anställda,<lb /> vart de åker på semester, gav de<lb /> mest
+               skiftande svar.<lb /> Utlandsresorna dominerar, men det<lb /> finns faktiskt en och
+               annan som<lb /> stannar inom landets gränser.<lb /> Så här svarade de tillfrågade:<lb />
+ 
+               
+               <name>Gustaf
+               Palmborg</name><lb />
+
+               <hi rend="underlined">Verkstadskontoret</hi><lb /> Jag och min
+               familj kommer att göra<lb /> en resa till nordligaste <country>Sverige</country>,<lb />
+               där fotvandring i <geogFeat>fjällen</geogFeat> står på<lb />
+  
+               <objectType>programmet</objectType>.
+               Vi hoppas även hinna<lb /> med en avstickare in i <country>Norge</country>.<lb /> (<name>
+               Gustav!</name> “Bättre en fjälla i veckan, än en vecka i fjällen”.) </p>
+
+            <figure rend="center">
+               <figDesc>Syntolkning: Bild på en påpälsad man med ryggsäck som bestiger ett snöigt
+                  berg. Han pustar och ordet <hi rend="handwritten">
+                     Pust</hi> står skrivet. </figDesc>
+            </figure>
+            <!-- Skapa en ram runt texten -->
+
+            <p><name>Gun-Britt Norrman</name><lb />
+
+               <hi rend="underlined">Telefonväxeln </hi><lb />
+               Inget är planerat ännu, men jag<lb /> funderar på en bilsemester inom<lb />
+ 
+               <country>
+               Sverige</country>. Förra året hyrde jag en<lb /> stuga på <region>Gotland</region>,
+               och det är ju<lb /> trevligt med omväxling.<lb />
+
             </p>
          </div>
-         
+
          <div rend="right column">
-               <cb n="2"/>
-               
-               <p><name>Rolf Andersson </name><lb/>
-                  <hi rend="underlined"></hi>Inköpsavdelningen<lb/>
-                  
-                  Jag och min fru bilade förra året<lb/> 
-                  till <country>Schweis</country> och <country>Österrike</country>. Det<lb/> 
-                  blir i år ett da capo på den resan.<lb/> 
-                  Jag tror vi får en underbar se-<lb break="no" type="sh"/>
-                  mester, med många trevliga över-<lb break="no" type="sh"/>
-                  nattningar längs alpvägarna.<lb/>
-                  
-                  (Jaså, minsann.)<lb/>
-               </p>
-            
-               <figure rend="center">
-                  <figDesc>Syntolkning: Bild på ett berg med serpentinvägar och en stuga. 
-                     Finns en pratbubbla från stugan med otydlig text 
-                     <hi rend="unclear">“Ingen...”</hi>.
-                  </figDesc> <!-- observera otydlig text -->
-               </figure><!-- Skapa en ram runt texten -->
-            
-               <p><name>Hjördis Carlsson</name><lb/>
-               <hi rend="underlined">Faktureringen </hi><lb/>
-                  Jag och min väninna flyger till<lb/> 
-                  <country>Spanien</country> eller till <country>Italien</country>. Vi<lb/> 
-                  vill få konstaterat om temperamen-<lb break="no" type="sh"/>
-                  tet hos den maliga befolkningen<lb/> 
-                  är så eldigt som det säjs. Vi<lb/> 
-                  hoppas åtminstone det!<lb/>
-                  
-                  (De får säkert en trevlig semester.)<lb/>  
-               </p>
-            
+            <cb n="2" />
+
+            <p><name>Rolf Andersson </name><lb />
+
+                  <hi rend="underlined"></hi>Inköpsavdelningen<lb />
+               Jag och min fru bilade förra året<lb /> till <country>Schweis</country> och <country>
+               Österrike</country>. Det<lb /> blir i år ett da capo på den resan.<lb /> Jag tror vi
+               får en underbar se-<lb break="no" type="sh" /> mester, med många trevliga över-<lb
+                  break="no" type="sh" /> nattningar längs alpvägarna.<lb /> (Jaså, minsann.)<lb />
+
+            </p>
+
             <figure rend="center">
-               <figDesc>Syntolkning: En bild på ett flygplan och ovanför det finns 
-                  ett större hjärta innehållande två personer. Bredvid står texten: 
-                  <hi rend="handwritten">“Längtan till södern.”</hi>
-               </figDesc> 
-            </figure><!-- Skapa en ram runt texten -->
+               <figDesc>Syntolkning: Bild på ett berg med serpentinvägar och en stuga. Finns en
+                  pratbubbla från stugan med otydlig text <hi rend="unclear">“Ingen...”</hi>. </figDesc> 
+                  <!-- observera otydlig text -->
+            </figure>
+            <!-- Skapa en ram runt texten -->
+
+            <p><name>Hjördis Carlsson</name><lb />
+
+               <hi rend="underlined">Faktureringen </hi><lb />
+               Jag och min väninna flyger till<lb />
+ 
+                  <country>Spanien</country> eller till <country>
+               Italien</country>. Vi<lb /> vill få konstaterat om temperamen-<lb break="no"
+                  type="sh" /> tet hos den maliga befolkningen<lb /> är så eldigt som det säjs. Vi<lb />
+               hoppas åtminstone det!<lb /> (De får säkert en trevlig semester.)<lb />
+
+            </p>
+
+            <figure rend="center">
+               <figDesc>Syntolkning: En bild på ett flygplan och ovanför det finns ett större hjärta
+                  innehållande två personer. Bredvid står texten: <hi rend="handwritten">“Längtan
+                  till södern.”</hi>
+               </figDesc>
+            </figure>
+            <!-- Skapa en ram runt texten -->
          </div>
 
-         
+
          <!--Fil VGblad_sid04_fram.tif -->
-         
-         <pb facs="#VG_04_1" source="meta_04_1"/>
-         <div type="page"> 
-            <pb n="III"/> 
+
+         <pb facs="#VG_04_1" source="meta_04_1" />
+         <div type="page">
+            <pb n="III" />
          </div>
-         
+
          <div rend="left column">
-           <cb n="1"/>
-           
-           <p><name>Rolf Adolfsson</name><lb/>
-              <hi rend="underlined">Försäljningen</hi><lb/>
-              Min fru och jag åker troligen till<lb/> 
-              <region>Öland</region>. Vi har där möjlighet att<lb/>
-              gratis få disponera en stuga, och<lb/>
-              den möjligheten vill vi gärna ut-<lb break="no" type="sh"/>
-              nyttja. (Ja, se smålänningar.) <lb/>
-           
-              Vi kan även tänka oss koppla på<lb/>
-              husvagnen, men det troliga blir<lb/>
-              <region>Öland</region>.<lb/>
-           </p>
-            
+            <cb n="1" />
+
+            <p><name>Rolf Adolfsson</name><lb />
+
+              <hi rend="underlined">Försäljningen</hi><lb /> Min
+               fru och jag åker troligen till<lb />
+ 
+              <region>Öland</region>. Vi har där möjlighet att<lb />
+               gratis få disponera en stuga, och<lb /> den möjligheten vill vi gärna ut-<lb
+                  break="no" type="sh" /> nyttja. (Ja, se smålänningar.) <lb /> Vi kan även tänka
+               oss koppla på<lb /> husvagnen, men det troliga blir<lb />
+
+              <region>Öland</region>.<lb />
+
+            </p>
+
             <figure rend="center">
-               <figDesc>Syntolkning: Bild på en timmerstuga omgiven 
-                    av två stora björkar och ett utedass i bakgrunden.
+               <figDesc>Syntolkning: Bild på en timmerstuga omgiven
+                  av två stora björkar och ett utedass i bakgrunden.
                </figDesc>
-            </figure><!-- Skapa en ram runt texten -->
-           
-           <p><name>Ulla-Britt Johansson</name>
-              <hi rend="underlined">Skrivcentralen</hi><lb/> 
-              Jag och min lille <q>“gulleplutt”</q><lb/>
-              skall ut och tälta i år. Jag är<lb/>
-              nu så gammal, så jag får åka för<lb/>
-              mamma. Men jag har förstås fått<lb/>
-              lova att vara rädd om mej. Vart<lb/>
-              vi ska åka? - Till <region>Dalarna</region>.<lb/> 
-           </p>
-           
-           <figure rend="down">
-              <figDesc>Syntolkning: Bild på ett tält 
-              i soluppgång/solnedgång med berg i bakgrunden och en skylt 
-              där det står <hi rend="handwritten">Vill ej bli störda!</hi>.
-              </figDesc>
-           </figure><!-- Skapa en ram runt texten -->
-        </div>
-         
+            </figure>
+            <!-- Skapa en ram runt texten -->
+
+            <p><name>Ulla-Britt Johansson</name>
+              <hi rend="underlined">Skrivcentralen</hi><lb /> Jag
+               och min lille <q>“gulleplutt”</q><lb /> skall ut och tälta i år. Jag är<lb /> nu så
+               gammal, så jag får åka för<lb /> mamma. Men jag har förstås fått<lb /> lova att vara
+               rädd om mej. Vart<lb /> vi ska åka? - Till <region>Dalarna</region>.<lb />
+
+            </p>
+
+            <figure rend="down">
+               <figDesc>Syntolkning: Bild på ett tält i soluppgång/solnedgång med berg i bakgrunden
+                  och en skylt där det står <hi rend="handwritten">Vill ej bli störda!</hi>. </figDesc>
+            </figure>
+            <!-- Skapa en ram runt texten -->
+         </div>
+
          <div rend="right column">
-              <cb n="2"/>
-           
-          <p><name>Torsten Pettersson</name><lb/>
-             <orgName><hi rend="underlined">Norregårdsfabriken </hi></orgName><lb/>
-             I många år har jag tänkt att med<lb/>
-             min familj göra en utlandsresa.<lb/>
-             I år ser det ut att bli av, och<lb/>
-             resmålet blir då <country>Tyskland</country>.<lb/>
-             
-             (Undras om han inte ville åka ensam.) <lb/>
-          </p>
-           
+            <cb n="2" />
+
+            <p><name>Torsten Pettersson</name><lb />
+
+             <orgName>
+                  <hi rend="underlined">Norregårdsfabriken </hi>
+               </orgName><lb /> I
+               många år har jag tänkt att med<lb /> min familj göra en utlandsresa.<lb /> I år ser
+               det ut att bli av, och<lb /> resmålet blir då <country>Tyskland</country>.<lb />
+               (Undras om han inte ville åka ensam.) <lb />
+
+            </p>
+
             <figure rend="center">
-             <figDesc> Syntolkning: Bild på en person som sitter i en 
-             cabriolet och ovan finns en stor skylt där det står 
-                <settlement>HAMBURG</settlement> 13.
-             </figDesc>
-            </figure><!-- Skapa en ram runt texten -->
-            
-            <p><name>Siri Jonasson</name><lb/>
-               <hi rend="underlined">Ekonomiavdelningen</hi><lb/>
-               Jag tar för det mesta vinter-<lb break="no" type="sh"/>
-               semester, och så blir fallet även<lb/>
-               i år. Förra året var jag i <country>Tuni-<lb break="no" type="sh"/>
-               sien</country>, och i år ställer jag kosan<lb/>
-               till <country>Marocko</country>.<lb/>
-               (Siri har lovat att göra ett repo-<lb break="no" type="sh"/>
-               tage från sin resa, om inte någon <lb/>
-               tjusig kameldrivare lägger beslag <lb/>
-               på henne.) <lb/>
-          </p>
-            
-           <figure rend="down">
-              <figDesc>Syntolkning: Bild på ett soligt och sandigt 
-                 landskap med tre palmer och några tält i mellangrunden. 
-                 I förgrunden står det en möjlig kameldrivare och tittar på oss. 
-                 Längst ner på bilden står <hi rend="handwritten">Han väntar!</hi>.
-              </figDesc>
-           </figure><!-- Skapa en ram runt texten -->
+               <figDesc> Syntolkning: Bild på en person som sitter i en cabriolet och ovan finns en
+                  stor skylt där det står <settlement>HAMBURG</settlement> 13. </figDesc>
+            </figure>
+            <!-- Skapa en ram runt texten -->
+
+            <p><name>Siri Jonasson</name><lb />
+
+               <hi rend="underlined">Ekonomiavdelningen</hi><lb />
+               Jag tar för det mesta vinter-<lb break="no" type="sh" /> semester, och så blir fallet
+               även<lb /> i år. Förra året var jag i <country>Tuni-<lb break="no" type="sh" /> sien</country>,
+               och i år ställer jag kosan<lb /> till <country>Marocko</country>.<lb /> (Siri har
+               lovat att göra ett repo-<lb break="no" type="sh" /> tage från sin resa, om inte någon <lb />
+               tjusig kameldrivare lägger beslag <lb /> på henne.) <lb />
+
+            </p>
+
+            <figure rend="down">
+               <figDesc>Syntolkning: Bild på ett soligt och sandigt landskap med tre palmer och
+                  några tält i mellangrunden. I förgrunden står det en möjlig kameldrivare och
+                  tittar på oss. Längst ner på bilden står <hi rend="handwritten">Han väntar!</hi>. </figDesc>
+            </figure>
+            <!-- Skapa en ram runt texten -->
          </div>
 
 
          <!--Fil VGblad_sid05_fram.tif -->
-         
-         <pb facs="#VG_05_1" source="meta_05_1"/>
-         <div type="page"> 
-            <pb n="IV"/> 
+
+         <pb facs="#VG_05_1" source="meta_05_1" />
+         <div type="page">
+            <pb n="IV" />
          </div>
-         
+
          <div rend="left column">
-            <cb n="1"/>
-            
-            <ab rend="center">Att kunna sälja!</ab><lb/>
-            <p>En manlig försäljare på ett stort<lb/> 
-               varuhus, sökte en dag chefen för <lb/>
-               att be om löneförhöjning.<lb/>
-               
-               Chefen lovade undersöka saken och<lb/> 
-               bad att få återkomma.<lb/>
-               
-               Försäljarens försäljningssiffror<lb/>
-               undersöktes, och befanns vara vid<lb/>
-               högre än de andra försäljarnas.<lb/>
-               Chefen blev lite misstänksam och<lb/>
-               undrade hur en enda försäljare<lb/>
-               kunde sälja så mycket.<lb/>
-               
-               Chefen smög därför ned i varuhuset,<lb/>
-               ställde sig bakom en pelare för att<lb/>
-               studera hans försäljningsteknik.<lb/>
-               
-               Försäljaren hade just en kund, och<lb/>
-               följande samtal utspann sig mellan<lb/>
-               försäljaren och kunden:<lb/>
-            
-               Det här är ett verkligt förnämligt<lb/>
-               kastspö. Utmärkt rulle, aldrig nå-<lb break="no" type="sh"/>
-               gon trasslig rev, fin svikt i spöet,<lb/>
-               ypperlig lina, som är otroligt stark,<lb/>
-               och så medföljer ett drag på köpet.<lb/>
-               
-               - Ja, det låter bra. Jag tar spöet.<lb/>
-               
-               - Jaha tack. Men låt oss nu tänka<lb/>
-               oss, att det är väldigt långgrundt,<lb/>
-               där min herre skall fiska. Då går<lb/> 
-               det ju inte att stå inne vid land<lb/>
-               och kasta. Ni kommer då att få en<lb/>
-               massa bottennapp, och på det viset<lb/>
-               förlorar ni många drag. Därför skulle<lb/>
-               jag vilja rekommendera de här sjö-<lb break="no" type="sh"/>
-               stövlarna. Med dem kan Ni gå ut i<lb/>
-               vattnet och ändå vara torrskodd. Vi<lb/>
-               säljer dem extra billigt just nu.<lb/>
-               Bara 200 kronor.<lb/>
-               
-               - Ja det är klart, att ett par stöv-<lb break="no" type="sh"/>
-               lar måste jag ju ha.<lb/>
-               
-               - Jag tackar! Men nu kan det tänka<lb/>
-               sig, att Ni befinner Er på land,<lb/>
-               och därute cirka 400 meter från land<lb/>
-               ligger ett fint grund, där det sä-<lb break="no" type="sh"/>
-               kert vimlar av fisk.<lb/>
-            </p> 
+            <cb n="1" />
+
+            <ab rend="center">Att kunna sälja!</ab>
+            <lb />
+
+            <p>En manlig försäljare på ett stort<lb /> varuhus, sökte en dag chefen för <lb /> att
+               be om löneförhöjning.<lb /> Chefen lovade undersöka saken och<lb /> bad att få
+               återkomma.<lb /> Försäljarens försäljningssiffror<lb /> undersöktes, och befanns vara
+               vid<lb /> högre än de andra försäljarnas.<lb /> Chefen blev lite misstänksam och<lb />
+               undrade hur en enda försäljare<lb /> kunde sälja så mycket.<lb /> Chefen smög därför
+               ned i varuhuset,<lb /> ställde sig bakom en pelare för att<lb /> studera hans
+               försäljningsteknik.<lb /> Försäljaren hade just en kund, och<lb /> följande samtal
+               utspann sig mellan<lb /> försäljaren och kunden:<lb /> Det här är ett verkligt
+               förnämligt<lb /> kastspö. Utmärkt rulle, aldrig nå-<lb break="no" type="sh" /> gon
+               trasslig rev, fin svikt i spöet,<lb /> ypperlig lina, som är otroligt stark,<lb />
+               och så medföljer ett drag på köpet.<lb /> - Ja, det låter bra. Jag tar spöet.<lb /> -
+               Jaha tack. Men låt oss nu tänka<lb /> oss, att det är väldigt långgrundt,<lb /> där
+               min herre skall fiska. Då går<lb /> det ju inte att stå inne vid land<lb /> och
+               kasta. Ni kommer då att få en<lb /> massa bottennapp, och på det viset<lb /> förlorar
+               ni många drag. Därför skulle<lb /> jag vilja rekommendera de här sjö-<lb break="no"
+                  type="sh" /> stövlarna. Med dem kan Ni gå ut i<lb /> vattnet och ändå vara
+               torrskodd. Vi<lb /> säljer dem extra billigt just nu.<lb /> Bara 200 kronor.<lb /> -
+               Ja det är klart, att ett par stöv-<lb break="no" type="sh" /> lar måste jag ju ha.<lb />
+               - Jag tackar! Men nu kan det tänka<lb /> sig, att Ni befinner Er på land,<lb /> och
+               därute cirka 400 meter från land<lb /> ligger ett fint grund, där det sä-<lb
+                  break="no" type="sh" /> kert vimlar av fisk.<lb />
+
+            </p>
          </div>
-         
+
          <div rend="right column">
-            <cb n="2"/>
-            
-            <p>Jag vet hur Ni ska komma dit.<lb/>
-               Köp den här aluminiumbåten, liten,<lb/> 
-               lättmanövrerad, och mycket sjösäker.<lb/>
-               Priset är ju som hittat faktiskt,<lb/>
-               bara 1 000 kronor.<lb/>
-                  
-               - Ja, här skall fiskas. Jag tar<lb/>
-               båten också!<lb/>
-                  
-               - Tack så mycket, tack, tack. Men<lb/> 
-               nu kan Ni inte drar med Er alla de<lb/>
-               här grejorna upp på spårvagnen<lb/>
-               eller bussen. Ni måste helt enkelt<lb/>
-               köpa en liten bil med trailer till.<lb/>
-               Vi har här en liten fin vagn med<lb/>
-               passande trailer till aluminium-<lb break="no" type="sh"/>
-               båten. Priset håller sig inom rim-<lb break="no" type="sh"/>
-               liga gränser. Endast 10 000 kronor.<lb/>
-                  
-               - Affären är uppgjord, frugan be-<lb break="no" type="sh"/>  
-               höver ändå en shoppingbil. Jag<lb/>
-               hoppas det går bra, om jag betalar<lb/>
-               med check.<lb/>
-                  
-               - Naturligtvis. Jag skall se till<lb/>
-               att varorna sändes till Er om-<lb break="no" type="sh"/>
-               gående.<lb/>
-                  
-               Affären avslutades, och chefen dyker <lb/>
-               upp.<lb/>
-                  
-               - Ni skall omgående få en rejäl<lb/>
-               löneförhöjning. Men hur bar Ni Er<lb/>
-               åt egentligen? Börjar med ett<lb/>
-               kastspö för 50 kronor, och slutar<lb/>
-               med en bil för 10 000 kronor.<lb/>
-               Det är ju fantastiskt!<lb/>
-                  
-               - Jag hör att chefen inte var med<lb/>
-               från början. Det var nämligen så, <lb/>
-               att mannen kom in för att köpa <lb/>
-               dambindor till sin fru. Men då sa <lb/>
-               jag: ”Varför inte åka ut och fiska, <lb/>
-               när veckan ändå är förstörd”. <lb/>
-            </p> 
-            
+            <cb n="2" />
+
+            <p>Jag vet hur Ni ska komma dit.<lb /> Köp den här aluminiumbåten, liten,<lb />
+               lättmanövrerad, och mycket sjösäker.<lb /> Priset är ju som hittat faktiskt,<lb />
+               bara 1 000 kronor.<lb /> - Ja, här skall fiskas. Jag tar<lb /> båten också!<lb /> -
+               Tack så mycket, tack, tack. Men<lb /> nu kan Ni inte drar med Er alla de<lb /> här
+               grejorna upp på spårvagnen<lb /> eller bussen. Ni måste helt enkelt<lb /> köpa en
+               liten bil med trailer till.<lb /> Vi har här en liten fin vagn med<lb /> passande
+               trailer till aluminium-<lb break="no" type="sh" /> båten. Priset håller sig inom rim-<lb
+                  break="no" type="sh" /> liga gränser. Endast 10 000 kronor.<lb /> - Affären är
+               uppgjord, frugan be-<lb break="no" type="sh" /> höver ändå en shoppingbil. Jag<lb />
+               hoppas det går bra, om jag betalar<lb /> med check.<lb /> - Naturligtvis. Jag skall
+               se till<lb /> att varorna sändes till Er om-<lb break="no" type="sh" /> gående.<lb />
+               Affären avslutades, och chefen dyker <lb /> upp.<lb /> - Ni skall omgående få en
+               rejäl<lb /> löneförhöjning. Men hur bar Ni Er<lb /> åt egentligen? Börjar med ett<lb />
+               kastspö för 50 kronor, och slutar<lb /> med en bil för 10 000 kronor.<lb /> Det är ju
+               fantastiskt!<lb /> - Jag hör att chefen inte var med<lb /> från början. Det var
+               nämligen så, <lb /> att mannen kom in för att köpa <lb /> dambindor till sin fru. Men
+               då sa <lb /> jag: ”Varför inte åka ut och fiska, <lb /> när veckan ändå är förstörd”. <lb />
+
+            </p>
+
             <figure rend="down">
-               <figDesc>Syntolkning: En bild med två män i förgrunden 
-                  som står och tittar på en Sverigekarta med olika 
-                  många markeringar i olika distrikt. 
-                  Innehållande texten: <hi rend="handwritten"></hi>
-                  Carlson! Ta bort nålen på mell-
-                  ersta Norrlandsdistr. och stick 
-                  försäljaren i ändan med den! 
-               </figDesc> 
-            </figure><!-- Skapa en ram runt texten -->
+               <figDesc>Syntolkning: En bild med två män i förgrunden som står och tittar på en
+                  Sverigekarta med olika många markeringar i olika distrikt. Innehållande texten: <hi
+                     rend="handwritten"></hi> Carlson! Ta bort nålen på mell-ersta Norrlandsdistr.
+                  och stick försäljaren i ändan med den! </figDesc>
+            </figure>
+            <!-- Skapa en ram runt texten -->
          </div>
-         
-         
+
+
       </body>
-  </text>
+   </text>
 </TEI>
