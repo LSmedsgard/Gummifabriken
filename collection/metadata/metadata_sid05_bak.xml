@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+
+<rdf:Description rdf:about='VGblad_sid05_bak.jpg'
+  xmlns:et='http://ns.exiftool.org/1.0/' et:toolkit='Image::ExifTool 12.82'
+  xmlns:ExifTool='http://ns.exiftool.org/ExifTool/1.0/'
+  xmlns:System='http://ns.exiftool.org/File/System/1.0/'
+  xmlns:File='http://ns.exiftool.org/File/1.0/'
+  xmlns:JFIF='http://ns.exiftool.org/JFIF/JFIF/1.0/'
+  xmlns:IFD0='http://ns.exiftool.org/EXIF/IFD0/1.0/'
+  xmlns:ICC-header='http://ns.exiftool.org/ICC_Profile/ICC-header/1.0/'
+  xmlns:ICC_Profile='http://ns.exiftool.org/ICC_Profile/ICC_Profile/1.0/'
+  xmlns:GPS='http://ns.exiftool.org/EXIF/GPS/1.0/'
+  xmlns:XMP-x='http://ns.exiftool.org/XMP/XMP-x/1.0/'
+  xmlns:XMP-xmpMM='http://ns.exiftool.org/XMP/XMP-xmpMM/1.0/'
+  xmlns:XMP-dc='http://ns.exiftool.org/XMP/XMP-dc/1.0/'
+  xmlns:XMP-GIMP='http://ns.exiftool.org/XMP/XMP-GIMP/1.0/'
+  xmlns:XMP-iptcCore='http://ns.exiftool.org/XMP/XMP-iptcCore/1.0/'
+  xmlns:XMP-xmp='http://ns.exiftool.org/XMP/XMP-xmp/1.0/'
+  xmlns:ICC-header2='http://ns.exiftool.org/ICC_Profile/ICC-header2/1.0/'
+  xmlns:ICC_Profile2='http://ns.exiftool.org/ICC_Profile/ICC_Profile2/1.0/'
+  xmlns:IPTC='http://ns.exiftool.org/IPTC/IPTC/1.0/'
+  xmlns:Composite='http://ns.exiftool.org/Composite/1.0/'>
+ <ExifTool:ExifToolVersion>12.82</ExifTool:ExifToolVersion>
+ <System:FileName>VGblad_sid05_bak.jpg</System:FileName>
+ <System:Directory>.</System:Directory>
+ <System:FileSize>658 kB</System:FileSize>
+ <System:FileModifyDate>2024:04:08 03:00:18+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2024:04:08 03:02:40+02:00</System:FileAccessDate>
+ <System:FileCreateDate>2024:04:08 03:00:18+02:00</System:FileCreateDate>
+ <System:FilePermissions>-rw-rw-rw-</System:FilePermissions>
+ <File:FileType>JPEG</File:FileType>
+ <File:FileTypeExtension>jpg</File:FileTypeExtension>
+ <File:MIMEType>image/jpeg</File:MIMEType>
+ <File:ExifByteOrder>Little-endian (Intel, II)</File:ExifByteOrder>
+ <File:CurrentIPTCDigest>5b55aae28a606f4107ae1b9fbd7653d9</File:CurrentIPTCDigest>
+ <File:ImageWidth>3060</File:ImageWidth>
+ <File:ImageHeight>4211</File:ImageHeight>
+ <File:EncodingProcess>Progressive DCT, Huffman coding</File:EncodingProcess>
+ <File:BitsPerSample>8</File:BitsPerSample>
+ <File:ColorComponents>3</File:ColorComponents>
+ <File:YCbCrSubSampling>YCbCr4:4:4 (1 1)</File:YCbCrSubSampling>
+ <JFIF:JFIFVersion>1.01</JFIF:JFIFVersion>
+ <JFIF:ResolutionUnit>inches</JFIF:ResolutionUnit>
+ <JFIF:XResolution>50</JFIF:XResolution>
+ <JFIF:YResolution>50</JFIF:YResolution>
+ <IFD0:Orientation>Horizontal (normal)</IFD0:Orientation>
+ <IFD0:XResolution>50</IFD0:XResolution>
+ <IFD0:YResolution>50</IFD0:YResolution>
+ <IFD0:ResolutionUnit>inches</IFD0:ResolutionUnit>
+ <IFD0:Software>GIMP 2.10.36</IFD0:Software>
+ <IFD0:ModifyDate>2024:04:08 03:00:04</IFD0:ModifyDate>
+ <ICC-header:ProfileCMMType>Apple Computer Inc.</ICC-header:ProfileCMMType>
+ <ICC-header:ProfileVersion>2.2.0</ICC-header:ProfileVersion>
+ <ICC-header:ProfileClass>Display Device Profile</ICC-header:ProfileClass>
+ <ICC-header:ColorSpaceData>RGB </ICC-header:ColorSpaceData>
+ <ICC-header:ProfileConnectionSpace>XYZ </ICC-header:ProfileConnectionSpace>
+ <ICC-header:ProfileDateTime>2006:02:02 02:20:00</ICC-header:ProfileDateTime>
+ <ICC-header:ProfileFileSignature>acsp</ICC-header:ProfileFileSignature>
+ <ICC-header:PrimaryPlatform>Apple Computer Inc.</ICC-header:PrimaryPlatform>
+ <ICC-header:CMMFlags>Not Embedded, Independent</ICC-header:CMMFlags>
+ <ICC-header:DeviceManufacturer>none</ICC-header:DeviceManufacturer>
+ <ICC-header:DeviceModel></ICC-header:DeviceModel>
+ <ICC-header:DeviceAttributes>Reflective, Glossy, Positive, Color</ICC-header:DeviceAttributes>
+ <ICC-header:RenderingIntent>Perceptual</ICC-header:RenderingIntent>
+ <ICC-header:ConnectionSpaceIlluminant>0.9642 1 0.82491</ICC-header:ConnectionSpaceIlluminant>
+ <ICC-header:ProfileCreator>Epson</ICC-header:ProfileCreator>
+ <ICC-header:ProfileID>0</ICC-header:ProfileID>
+ <ICC_Profile:ProfileDescription>EPSON  sRGB</ICC_Profile:ProfileDescription>
+ <ICC_Profile:RedMatrixColumn>0.43607 0.22249 0.01392</ICC_Profile:RedMatrixColumn>
+ <ICC_Profile:GreenMatrixColumn>0.38515 0.71687 0.09708</ICC_Profile:GreenMatrixColumn>
+ <ICC_Profile:BlueMatrixColumn>0.14307 0.06061 0.7141</ICC_Profile:BlueMatrixColumn>
+ <ICC_Profile:MediaWhitePoint>0.95045 1 1.08905</ICC_Profile:MediaWhitePoint>
+ <ICC_Profile:ProfileCopyright>Copyright (c) SEIKO EPSON CORPORATION 2000 - 2006. All rights reserved.</ICC_Profile:ProfileCopyright>
+ <ICC_Profile:RedTRC>(Binary data 8204 bytes, use -b option to extract)</ICC_Profile:RedTRC>
+ <ICC_Profile:GreenTRC>(Binary data 8204 bytes, use -b option to extract)</ICC_Profile:GreenTRC>
+ <ICC_Profile:BlueTRC>(Binary data 8204 bytes, use -b option to extract)</ICC_Profile:BlueTRC>
+ <ICC_Profile:MediaBlackPoint>0 0 0</ICC_Profile:MediaBlackPoint>
+ <GPS:GPSAltitude>0 m</GPS:GPSAltitude>
+ <XMP-x:XMPToolkit>XMP Core 4.4.0-Exiv2</XMP-x:XMPToolkit>
+ <XMP-xmpMM:DocumentID>gimp:docid:gimp:7445b204-d6b9-480e-ada5-49e74c0e2f10</XMP-xmpMM:DocumentID>
+ <XMP-xmpMM:InstanceID>xmp.iid:763579f1-14cc-45fd-aea3-5814ad8fcf35</XMP-xmpMM:InstanceID>
+ <XMP-xmpMM:OriginalDocumentID>xmp.did:7ae7aa93-65f7-4a67-85a0-a27657137165</XMP-xmpMM:OriginalDocumentID>
+ <XMP-xmpMM:HistoryAction>
+  <rdf:Bag>
+   <rdf:li>saved</rdf:li>
+   <rdf:li>saved</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryAction>
+ <XMP-xmpMM:HistoryChanged>
+  <rdf:Bag>
+   <rdf:li>/metadata</rdf:li>
+   <rdf:li>/</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryChanged>
+ <XMP-xmpMM:HistoryInstanceID>
+  <rdf:Bag>
+   <rdf:li>xmp.iid:ce184298-4e01-4adc-8ff0-1be7661655e6</rdf:li>
+   <rdf:li>xmp.iid:a88fbadd-cf3b-4298-86ee-b9de4dd1cfee</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryInstanceID>
+ <XMP-xmpMM:HistorySoftwareAgent>
+  <rdf:Bag>
+   <rdf:li>Gimp 2.10 (Windows)</rdf:li>
+   <rdf:li>Gimp 2.10 (Windows)</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistorySoftwareAgent>
+ <XMP-xmpMM:HistoryWhen>
+  <rdf:Bag>
+   <rdf:li>2024:04:08 02:59:04</rdf:li>
+   <rdf:li>2024:04:08 03:00:18</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryWhen>
+ <XMP-dc:Format>image/jpeg</XMP-dc:Format>
+ <XMP-dc:Creator>S Ribbemo</XMP-dc:Creator>
+ <XMP-dc:Title>VEGE-bladet_Premiärnummer_sid05_bak_Värnamo_1967</XMP-dc:Title>
+ <XMP-GIMP:Api>2.0</XMP-GIMP:Api>
+ <XMP-GIMP:Platform>Windows</XMP-GIMP:Platform>
+ <XMP-GIMP:TimeStamp>1712538018834489</XMP-GIMP:TimeStamp>
+ <XMP-GIMP:Version>2.10.36</XMP-GIMP:Version>
+ <XMP-iptcCore:CiAdrCity>Värnamo</XMP-iptcCore:CiAdrCity>
+ <XMP-iptcCore:CiAdrCtry>Sverige</XMP-iptcCore:CiAdrCtry>
+ <XMP-iptcCore:CiAdrExtadr>Gummifabriken Värnamo, Jönköpingsvägen 15</XMP-iptcCore:CiAdrExtadr>
+ <XMP-iptcCore:CiAdrPcode>331 34</XMP-iptcCore:CiAdrPcode>
+ <XMP-iptcCore:CiAdrRegion>Jönköpings län</XMP-iptcCore:CiAdrRegion>
+ <XMP-iptcCore:CreatorCity>Värnamo</XMP-iptcCore:CreatorCity>
+ <XMP-iptcCore:CreatorCountry>Sverige</XMP-iptcCore:CreatorCountry>
+ <XMP-iptcCore:CreatorAddress>Gummifabriken Värnamo, Jönköpingsvägen 15</XMP-iptcCore:CreatorAddress>
+ <XMP-iptcCore:CreatorPostalCode>331 34</XMP-iptcCore:CreatorPostalCode>
+ <XMP-iptcCore:CreatorRegion>Jönköpings län</XMP-iptcCore:CreatorRegion>
+ <XMP-xmp:CreatorTool>GIMP 2.10</XMP-xmp:CreatorTool>
+ <XMP-xmp:MetadataDate>2024:04:08T03:00:04+02:00</XMP-xmp:MetadataDate>
+ <XMP-xmp:ModifyDate>2024:04:08T03:00:04+02:00</XMP-xmp:ModifyDate>
+ <ICC-header2:ProfileCMMType>Apple Computer Inc.</ICC-header2:ProfileCMMType>
+ <ICC-header2:ProfileVersion>2.2.0</ICC-header2:ProfileVersion>
+ <ICC-header2:ProfileClass>Display Device Profile</ICC-header2:ProfileClass>
+ <ICC-header2:ColorSpaceData>RGB </ICC-header2:ColorSpaceData>
+ <ICC-header2:ProfileConnectionSpace>XYZ </ICC-header2:ProfileConnectionSpace>
+ <ICC-header2:ProfileDateTime>2006:02:02 02:20:00</ICC-header2:ProfileDateTime>
+ <ICC-header2:ProfileFileSignature>acsp</ICC-header2:ProfileFileSignature>
+ <ICC-header2:PrimaryPlatform>Apple Computer Inc.</ICC-header2:PrimaryPlatform>
+ <ICC-header2:CMMFlags>Not Embedded, Independent</ICC-header2:CMMFlags>
+ <ICC-header2:DeviceManufacturer>none</ICC-header2:DeviceManufacturer>
+ <ICC-header2:DeviceModel></ICC-header2:DeviceModel>
+ <ICC-header2:DeviceAttributes>Reflective, Glossy, Positive, Color</ICC-header2:DeviceAttributes>
+ <ICC-header2:RenderingIntent>Perceptual</ICC-header2:RenderingIntent>
+ <ICC-header2:ConnectionSpaceIlluminant>0.9642 1 0.82491</ICC-header2:ConnectionSpaceIlluminant>
+ <ICC-header2:ProfileCreator>Epson</ICC-header2:ProfileCreator>
+ <ICC-header2:ProfileID>0</ICC-header2:ProfileID>
+ <ICC_Profile2:ProfileDescription>EPSON  sRGB</ICC_Profile2:ProfileDescription>
+ <ICC_Profile2:RedMatrixColumn>0.43607 0.22249 0.01392</ICC_Profile2:RedMatrixColumn>
+ <ICC_Profile2:GreenMatrixColumn>0.38515 0.71687 0.09708</ICC_Profile2:GreenMatrixColumn>
+ <ICC_Profile2:BlueMatrixColumn>0.14307 0.06061 0.7141</ICC_Profile2:BlueMatrixColumn>
+ <ICC_Profile2:MediaWhitePoint>0.95045 1 1.08905</ICC_Profile2:MediaWhitePoint>
+ <ICC_Profile2:ProfileCopyright>Copyright (c) SEIKO EPSON CORPORATION 2000 - 2006. All rights reserved.</ICC_Profile2:ProfileCopyright>
+ <ICC_Profile2:RedTRC>(Binary data 8204 bytes, use -b option to extract)</ICC_Profile2:RedTRC>
+ <ICC_Profile2:GreenTRC>(Binary data 8204 bytes, use -b option to extract)</ICC_Profile2:GreenTRC>
+ <ICC_Profile2:BlueTRC>(Binary data 8204 bytes, use -b option to extract)</ICC_Profile2:BlueTRC>
+ <ICC_Profile2:MediaBlackPoint>0 0 0</ICC_Profile2:MediaBlackPoint>
+ <IPTC:By-line>S Ribbemo</IPTC:By-line>
+ <IPTC:ObjectName>VEGE-bladet_PremiÃ¤rnummer_sid05_bak_VÃ¤rnamo_1967</IPTC:ObjectName>
+ <Composite:ImageSize>3060x4211</Composite:ImageSize>
+ <Composite:Megapixels>12.9</Composite:Megapixels>
+</rdf:Description>
+</rdf:RDF>

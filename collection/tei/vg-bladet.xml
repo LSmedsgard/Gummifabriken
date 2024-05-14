@@ -26,19 +26,18 @@
             <authority>Evelina Fant</authority>
             <authority>Emeli Hellström</authority>
             <authority>Linnea Smedsgård</authority>
-            
             <distributor>Gummifabriken</distributor>
             <address>
                <settlement>Värnamo</settlement>
                <street>Jönköpingsvägen 15</street>
                <postCode>33134</postCode>
-               <country>Sweden</country> <!-- vi kollar upp det -->
+               <country>Sweden</country>
             </address>
             <date when="2024-05-24" calendar="Gregorian">24 May 2024</date>
             <availability status="free">
                <licence>Publiceras via GitHub online under <ref target="https://creativecommons.org/licenses/by/4.0/">
                   Creative Commons Attribution 4.0 International</ref></licence>
-               <p>I gott samarbete med Gummifarbriken i Värnamo, Sverige.</p>
+               <p>I gott samarbete med Gummifabriken i Värnamo, Sverige.</p>
             </availability>
          </publicationStmt>
          
@@ -122,6 +121,7 @@
       <surface xml:id="VG">
          <figure>
             <label>Gummifabriken Värnamo</label>
+<<<<<<< HEAD
             <figDesc>Bildfiler till premiärnumret av Gummifabrikens personaltidning.</figDesc>
                <graphic xml:id="VG_01_1" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid01_fram.jpg"></graphic>
                <graphic xml:id="VG_01_2" url="https://github.com/LSmedsgard/Gummifabriken/blob/6096a70cc0186de668c0f766d52c84892c74cd80/img/scans%20in%20JPG/VGblad_sid01_bak.jpg"></graphic>
@@ -148,6 +148,20 @@
                <metamark xml:id="meta_04_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid04_bak.xml"></metamark>
                <metamark xml:id="meta_05_1" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid05_fram.xml"></metamark>
                <metamark xml:id="meta_05_2" source="https://github.com/LSmedsgard/Gummifabriken/blob/d4a9a7363637c4c5721838e192d2a06203c858cb/collection/metadata/metadata_sid05_bak.xml"></metamark>
+=======
+            <figDesc>Premiärnumret av Gummifabrikens personaltidning. 
+            </figDesc>
+            <graphic xml:id="VG_001_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_fram.jpg"></graphic>
+            <graphic xml:id="VG_001-2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid01_bak.jpg"></graphic>
+            <graphic xml:id="VG_002-1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_fram.jpg"></graphic>
+            <graphic xml:id="VG_002-2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid02_bak.jpg"></graphic>
+            <graphic xml:id="VG_003_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_fram.jpg"></graphic>
+            <graphic xml:id="VG_003_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid03_bak.jpg"></graphic>
+            <graphic xml:id="VG_004_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_fram.jpg"></graphic>
+            <graphic xml:id="VG_004_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid04_bak.jpg"></graphic>
+            <graphic xml:id="VG_005_1" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_fram.jpg"></graphic>
+            <graphic xml:id="VG_005_2" url="https://lsmedsgard.github.io/Gummifabriken/assets/img/scanned_images_jpg/VGblad_sid05_bak.jpg"></graphic>
+>>>>>>> d4a9a7363637c4c5721838e192d2a06203c858cb
          </figure>
       </surface>
    </facsimile>
