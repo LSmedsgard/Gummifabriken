@@ -120,12 +120,7 @@ p.right {
     text-align: right;
 }
 
-.transcriptionleft {
-    margin-left: 35px;
-}
-.transcriptionright {
-    margin-right: 35px;
-}
+
 
 .section-with-border {
     border: 1.5px solid #ccc; 
